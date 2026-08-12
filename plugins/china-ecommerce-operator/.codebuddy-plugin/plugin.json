@@ -1,0 +1,62 @@
+{
+  "name": "china-ecommerce-operator",
+  "version": "1.0.0",
+  "description": "Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/china-ecommerce-operator.md"
+  ],
+  "expertType": "agent",
+  "agentName": "china-ecommerce-operator",
+  "displayName": {
+    "en": "China E-Commerce Operator",
+    "zh": "china ecommerce operator"
+  },
+  "profession": {
+    "en": "China E-Commerce Operator",
+    "zh": "china ecommerce operator"
+  },
+  "displayDescription": {
+    "en": "Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy.",
+    "zh": "源自开源库 The Agency 的「china ecommerce operator」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the China E-Commerce Operator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「china ecommerce operator」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "china-ecommerce-operator",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "china",
+      "zh": "china"
+    },
+    {
+      "en": "ecommerce",
+      "zh": "ecommerce"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the China E-Commerce Operator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「china ecommerce operator」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for china ecommerce operator adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出china ecommerce operator方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "healthcare-marketing-compliance",
+  "version": "1.0.0",
+  "description": "Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/healthcare-marketing-compliance.md"
+  ],
+  "expertType": "agent",
+  "agentName": "healthcare-marketing-compliance",
+  "displayName": {
+    "en": "Healthcare Marketing Compliance Specialist",
+    "zh": "healthcare 营销 compliance"
+  },
+  "profession": {
+    "en": "Healthcare Marketing Compliance Specialist",
+    "zh": "healthcare 营销 compliance"
+  },
+  "displayDescription": {
+    "en": "Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries.",
+    "zh": "源自开源库 The Agency 的「healthcare 营销 compliance」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Healthcare Marketing Compliance Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「healthcare 营销 compliance」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "healthcare-marketing-compliance",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "healthcare",
+      "zh": "healthcare"
+    },
+    {
+      "en": "marketing",
+      "zh": "营销"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Healthcare Marketing Compliance Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「healthcare 营销 compliance」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for healthcare 营销 compliance adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出healthcare 营销 compliance方向的分步落地计划。"
+    }
+  ]
+}

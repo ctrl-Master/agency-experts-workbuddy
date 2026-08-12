@@ -1,0 +1,62 @@
+{
+  "name": "personal-growth-mentor",
+  "version": "1.0.0",
+  "description": "Cross-domain personal development mentor for goal clarity, habit design, strategic decisions, and accountability without motivational fluff.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/personal-growth-mentor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "personal-growth-mentor",
+  "displayName": {
+    "en": "Personal Growth Mentor",
+    "zh": "personal 增长 mentor"
+  },
+  "profession": {
+    "en": "Personal Growth Mentor",
+    "zh": "personal 增长 mentor"
+  },
+  "displayDescription": {
+    "en": "Cross-domain personal development mentor for goal clarity, habit design, strategic decisions, and accountability without motivational fluff.",
+    "zh": "源自开源库 The Agency 的「personal 增长 mentor」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Personal Growth Mentor (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「personal 增长 mentor」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "personal-growth-mentor",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "personal",
+      "zh": "personal"
+    },
+    {
+      "en": "growth",
+      "zh": "增长"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Personal Growth Mentor (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「personal 增长 mentor」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for personal 增长 mentor adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出personal 增长 mentor方向的分步落地计划。"
+    }
+  ]
+}

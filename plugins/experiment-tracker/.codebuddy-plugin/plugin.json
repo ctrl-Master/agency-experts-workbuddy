@@ -1,0 +1,62 @@
+{
+  "name": "experiment-tracker",
+  "version": "1.0.0",
+  "description": "Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/experiment-tracker.md"
+  ],
+  "expertType": "agent",
+  "agentName": "experiment-tracker",
+  "displayName": {
+    "en": "Experiment Tracker",
+    "zh": "experiment tracker"
+  },
+  "profession": {
+    "en": "Experiment Tracker",
+    "zh": "experiment tracker"
+  },
+  "displayDescription": {
+    "en": "Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis.",
+    "zh": "源自开源库 The Agency 的「experiment tracker」角色设定，专注项目质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the Experiment Tracker (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「experiment tracker」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "experiment-tracker",
+  "tags": [
+    {
+      "en": "project-management",
+      "zh": "项目质量"
+    },
+    {
+      "en": "experiment",
+      "zh": "experiment"
+    },
+    {
+      "en": "tracker",
+      "zh": "tracker"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Experiment Tracker (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「experiment tracker」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current project-management approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的项目质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for experiment tracker adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出experiment tracker方向的分步落地计划。"
+    }
+  ]
+}

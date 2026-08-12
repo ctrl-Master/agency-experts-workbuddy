@@ -1,0 +1,62 @@
+{
+  "name": "inclusive-visuals-specialist",
+  "version": "1.0.0",
+  "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/inclusive-visuals-specialist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "inclusive-visuals-specialist",
+  "displayName": {
+    "en": "Inclusive Visuals Specialist",
+    "zh": "inclusive visuals 专家"
+  },
+  "profession": {
+    "en": "Inclusive Visuals Specialist",
+    "zh": "inclusive visuals 专家"
+  },
+  "displayDescription": {
+    "en": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
+    "zh": "源自开源库 The Agency 的「inclusive visuals 专家」角色设定，专注产品设计领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the Inclusive Visuals Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「inclusive visuals 专家」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "inclusive-visuals-specialist",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "产品设计"
+    },
+    {
+      "en": "inclusive",
+      "zh": "inclusive"
+    },
+    {
+      "en": "visuals",
+      "zh": "visuals"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Inclusive Visuals Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「inclusive visuals 专家」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current design approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品设计方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for inclusive visuals 专家 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出inclusive visuals 专家方向的分步落地计划。"
+    }
+  ]
+}

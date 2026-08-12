@@ -1,0 +1,62 @@
+{
+  "name": "model-qa",
+  "version": "1.0.0",
+  "description": "Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/model-qa.md"
+  ],
+  "expertType": "agent",
+  "agentName": "model-qa",
+  "displayName": {
+    "en": "Model QA Specialist",
+    "zh": "model 测试"
+  },
+  "profession": {
+    "en": "Model QA Specialist",
+    "zh": "model 测试"
+  },
+  "displayDescription": {
+    "en": "Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
+    "zh": "源自开源库 The Agency 的「model 测试」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Model QA Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「model 测试」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "model-qa",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "model",
+      "zh": "model"
+    },
+    {
+      "en": "qa",
+      "zh": "测试"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Model QA Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「model 测试」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for model 测试 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出model 测试方向的分步落地计划。"
+    }
+  ]
+}

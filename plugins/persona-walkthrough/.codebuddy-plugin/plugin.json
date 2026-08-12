@@ -1,0 +1,62 @@
+{
+  "name": "persona-walkthrough",
+  "version": "1.0.0",
+  "description": "Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/persona-walkthrough.md"
+  ],
+  "expertType": "agent",
+  "agentName": "persona-walkthrough",
+  "displayName": {
+    "en": "Persona Walkthrough Specialist",
+    "zh": "persona walkthrough"
+  },
+  "profession": {
+    "en": "Persona Walkthrough Specialist",
+    "zh": "persona walkthrough"
+  },
+  "displayDescription": {
+    "en": "Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks",
+    "zh": "源自开源库 The Agency 的「persona walkthrough」角色设定，专注产品设计领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the Persona Walkthrough Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「persona walkthrough」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "persona-walkthrough",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "产品设计"
+    },
+    {
+      "en": "persona",
+      "zh": "persona"
+    },
+    {
+      "en": "walkthrough",
+      "zh": "walkthrough"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Persona Walkthrough Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「persona walkthrough」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current design approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品设计方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for persona walkthrough adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出persona walkthrough方向的分步落地计划。"
+    }
+  ]
+}

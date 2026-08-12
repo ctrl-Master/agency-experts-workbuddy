@@ -1,0 +1,62 @@
+{
+  "name": "search-query-analyst",
+  "version": "1.0.0",
+  "description": "Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/search-query-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "search-query-analyst",
+  "displayName": {
+    "en": "Search Query Analyst",
+    "zh": "检索 query analyst"
+  },
+  "profession": {
+    "en": "Search Query Analyst",
+    "zh": "检索 query analyst"
+  },
+  "displayDescription": {
+    "en": "Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.",
+    "zh": "源自开源库 The Agency 的「检索 query analyst」角色设定，专注付费媒体领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Search Query Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「检索 query analyst」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "search-query-analyst",
+  "tags": [
+    {
+      "en": "paid-media",
+      "zh": "付费媒体"
+    },
+    {
+      "en": "search",
+      "zh": "检索"
+    },
+    {
+      "en": "query",
+      "zh": "query"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Search Query Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「检索 query analyst」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current paid-media approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的付费媒体方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 检索 query analyst adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出检索 query analyst方向的分步落地计划。"
+    }
+  ]
+}

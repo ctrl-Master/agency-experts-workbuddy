@@ -1,0 +1,62 @@
+{
+  "name": "customer-service",
+  "version": "1.0.0",
+  "description": "Friendly, professional customer service specialist for any industry — handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/customer-service.md"
+  ],
+  "expertType": "agent",
+  "agentName": "customer-service",
+  "displayName": {
+    "en": "Customer Service",
+    "zh": "customer service"
+  },
+  "profession": {
+    "en": "Customer Service",
+    "zh": "customer service"
+  },
+  "displayDescription": {
+    "en": "Friendly, professional customer service specialist for any industry — handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
+    "zh": "源自开源库 The Agency 的「customer service」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Customer Service (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「customer service」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "customer-service",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "customer",
+      "zh": "customer"
+    },
+    {
+      "en": "service",
+      "zh": "service"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Customer Service (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「customer service」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for customer service adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出customer service方向的分步落地计划。"
+    }
+  ]
+}

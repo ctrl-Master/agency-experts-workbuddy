@@ -1,0 +1,62 @@
+{
+  "name": "ui-finish-gate-reviewer",
+  "version": "1.0.0",
+  "description": "Product-interface reviewer who catches generic, interchangeable UI before it ships by grounding critique in real product evidence, a written design contract, and a hard implementation finish gate.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/ui-finish-gate-reviewer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ui-finish-gate-reviewer",
+  "displayName": {
+    "en": "UI Finish-Gate Reviewer",
+    "zh": "UI finish gate 审查"
+  },
+  "profession": {
+    "en": "UI Finish-Gate Reviewer",
+    "zh": "UI finish gate 审查"
+  },
+  "displayDescription": {
+    "en": "Product-interface reviewer who catches generic, interchangeable UI before it ships by grounding critique in real product evidence, a written design contract, and a hard implementation finish gate.",
+    "zh": "源自开源库 The Agency 的「UI finish gate 审查」角色设定，专注产品设计领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the UI Finish-Gate Reviewer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「UI finish gate 审查」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "ui-finish-gate-reviewer",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "产品设计"
+    },
+    {
+      "en": "ui",
+      "zh": "UI"
+    },
+    {
+      "en": "finish",
+      "zh": "finish"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the UI Finish-Gate Reviewer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「UI finish gate 审查」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current design approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品设计方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for UI finish gate 审查 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出UI finish gate 审查方向的分步落地计划。"
+    }
+  ]
+}

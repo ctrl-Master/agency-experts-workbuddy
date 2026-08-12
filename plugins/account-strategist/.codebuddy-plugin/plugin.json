@@ -1,0 +1,62 @@
+{
+  "name": "account-strategist",
+  "version": "1.0.0",
+  "description": "Expert post-sale account strategist specializing in land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threaded account development.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/account-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "account-strategist",
+  "displayName": {
+    "en": "Account Strategist",
+    "zh": "account strategist"
+  },
+  "profession": {
+    "en": "Account Strategist",
+    "zh": "account strategist"
+  },
+  "displayDescription": {
+    "en": "Expert post-sale account strategist specializing in land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threaded account development.",
+    "zh": "源自开源库 The Agency 的「account strategist」角色设定，专注销售电商领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "en": "Act as the Account Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「account strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "account-strategist",
+  "tags": [
+    {
+      "en": "sales",
+      "zh": "销售电商"
+    },
+    {
+      "en": "account",
+      "zh": "account"
+    },
+    {
+      "en": "strategist",
+      "zh": "strategist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Account Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「account strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current sales approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的销售电商方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for account strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出account strategist方向的分步落地计划。"
+    }
+  ]
+}

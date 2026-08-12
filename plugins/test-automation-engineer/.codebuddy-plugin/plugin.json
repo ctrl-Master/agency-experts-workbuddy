@@ -1,0 +1,62 @@
+{
+  "name": "test-automation-engineer",
+  "version": "1.0.0",
+  "description": "Expert end-to-end test automation engineer for Playwright and Cypress — resilient selectors, flake elimination, isolated test data, CI parallelization, and trace-driven failure debugging.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/test-automation-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "test-automation-engineer",
+  "displayName": {
+    "en": "Test Automation Engineer",
+    "zh": "测试 自动化 工程师"
+  },
+  "profession": {
+    "en": "Test Automation Engineer",
+    "zh": "测试 自动化 工程师"
+  },
+  "displayDescription": {
+    "en": "Expert end-to-end test automation engineer for Playwright and Cypress — resilient selectors, flake elimination, isolated test data, CI parallelization, and trace-driven failure debugging.",
+    "zh": "源自开源库 The Agency 的「测试 自动化 工程师」角色设定，专注测试质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the Test Automation Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「测试 自动化 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "test-automation-engineer",
+  "tags": [
+    {
+      "en": "testing",
+      "zh": "测试质量"
+    },
+    {
+      "en": "test",
+      "zh": "测试"
+    },
+    {
+      "en": "automation",
+      "zh": "自动化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Test Automation Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「测试 自动化 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current testing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的测试质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 测试 自动化 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出测试 自动化 工程师方向的分步落地计划。"
+    }
+  ]
+}

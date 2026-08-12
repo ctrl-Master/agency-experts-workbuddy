@@ -1,0 +1,62 @@
+{
+  "name": "government-digital-presales-consultant",
+  "version": "1.0.0",
+  "description": "Presales expert for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/government-digital-presales-consultant.md"
+  ],
+  "expertType": "agent",
+  "agentName": "government-digital-presales-consultant",
+  "displayName": {
+    "en": "Government Digital Presales Consultant",
+    "zh": "government digital presales 顾问"
+  },
+  "profession": {
+    "en": "Government Digital Presales Consultant",
+    "zh": "government digital presales 顾问"
+  },
+  "displayDescription": {
+    "en": "Presales expert for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects.",
+    "zh": "源自开源库 The Agency 的「government digital presales 顾问」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Government Digital Presales Consultant (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「government digital presales 顾问」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "government-digital-presales-consultant",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "government",
+      "zh": "government"
+    },
+    {
+      "en": "digital",
+      "zh": "digital"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Government Digital Presales Consultant (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「government digital presales 顾问」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for government digital presales 顾问 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出government digital presales 顾问方向的分步落地计划。"
+    }
+  ]
+}

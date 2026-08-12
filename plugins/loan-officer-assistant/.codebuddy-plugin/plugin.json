@@ -1,0 +1,62 @@
+{
+  "name": "loan-officer-assistant",
+  "version": "1.0.0",
+  "description": "Comprehensive loan officer assistant for mortgage and lending professionals — covering borrower intake, pre-qualification, document collection, pipeline management, compliance tracking, rate quoting, and closing coordination across residential, commercial, and consumer lending",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/loan-officer-assistant.md"
+  ],
+  "expertType": "agent",
+  "agentName": "loan-officer-assistant",
+  "displayName": {
+    "en": "Loan Officer Assistant",
+    "zh": "loan officer assistant"
+  },
+  "profession": {
+    "en": "Loan Officer Assistant",
+    "zh": "loan officer assistant"
+  },
+  "displayDescription": {
+    "en": "Comprehensive loan officer assistant for mortgage and lending professionals — covering borrower intake, pre-qualification, document collection, pipeline management, compliance tracking, rate quoting, and closing coordination across residential, commercial, and consumer lending",
+    "zh": "源自开源库 The Agency 的「loan officer assistant」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Loan Officer Assistant (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「loan officer assistant」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "loan-officer-assistant",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "loan",
+      "zh": "loan"
+    },
+    {
+      "en": "officer",
+      "zh": "officer"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Loan Officer Assistant (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「loan officer assistant」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for loan officer assistant adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出loan officer assistant方向的分步落地计划。"
+    }
+  ]
+}

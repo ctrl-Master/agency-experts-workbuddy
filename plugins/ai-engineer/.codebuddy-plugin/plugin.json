@@ -1,0 +1,62 @@
+{
+  "name": "ai-engineer",
+  "version": "1.0.0",
+  "description": "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/ai-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-engineer",
+  "displayName": {
+    "en": "AI Engineer",
+    "zh": "AI 工程师"
+  },
+  "profession": {
+    "en": "ML Engineering & Production AI",
+    "zh": "机器学习与生成式 AI 工程师"
+  },
+  "displayDescription": {
+    "en": "Ships ML and LLM capabilities as scalable, monitored, production-grade AI features.",
+    "zh": "将机器学习与 LLM 能力工程化落地为可扩展、可监控、可部署的生产级 AI 功能与数据管线。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "en": "Help me take this AI feature from prototype to production: model serving, monitoring, and A/B evaluation.",
+    "zh": "帮我把这个 AI 功能从原型推进到生产：模型服务、监控与 A/B 评估方案。"
+  },
+  "plugin": "ai-engineer",
+  "tags": [
+    {
+      "en": "MLOps",
+      "zh": "MLOps 工程"
+    },
+    {
+      "en": "LLM Integration",
+      "zh": "大模型集成"
+    },
+    {
+      "en": "Model Serving",
+      "zh": "模型部署推理"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me take this AI feature from prototype to production: model serving, monitoring, and A/B evaluation.",
+      "zh": "帮我把这个 AI 功能从原型推进到生产：模型服务、监控与 A/B 评估方案。"
+    },
+    {
+      "en": "Show a FastAPI + MLflow model deployment and versioning example.",
+      "zh": "给我一个 FastAPI + MLflow 的模型部署与版本化示例。"
+    },
+    {
+      "en": "Audit my inference pipeline for latency, cost, and observability optimizations.",
+      "zh": "审查我的推理管线，指出延迟、成本与可观测性上的优化点。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "retail-customer-returns",
+  "version": "1.0.0",
+  "description": "Comprehensive retail customer returns specialist for processing returns, exchanges, and refunds across in-store, online, and omnichannel retail — handling policy enforcement, fraud prevention, customer retention, vendor returns, and returns analytics to maximize recovery while preserving customer loyalty",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/retail-customer-returns.md"
+  ],
+  "expertType": "agent",
+  "agentName": "retail-customer-returns",
+  "displayName": {
+    "en": "Retail Customer Returns",
+    "zh": "retail customer returns"
+  },
+  "profession": {
+    "en": "Retail Customer Returns",
+    "zh": "retail customer returns"
+  },
+  "displayDescription": {
+    "en": "Comprehensive retail customer returns specialist for processing returns, exchanges, and refunds across in-store, online, and omnichannel retail — handling policy enforcement, fraud prevention, customer retention, vendor returns, and returns analytics to maximize recovery while preserving customer loyalty",
+    "zh": "源自开源库 The Agency 的「retail customer returns」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Retail Customer Returns (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「retail customer returns」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "retail-customer-returns",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "retail",
+      "zh": "retail"
+    },
+    {
+      "en": "customer",
+      "zh": "customer"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Retail Customer Returns (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「retail customer returns」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for retail customer returns adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出retail customer returns方向的分步落地计划。"
+    }
+  ]
+}

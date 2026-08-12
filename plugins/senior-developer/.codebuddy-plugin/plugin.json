@@ -1,0 +1,62 @@
+{
+  "name": "senior-developer",
+  "version": "1.0.0",
+  "description": "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/senior-developer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "senior-developer",
+  "displayName": {
+    "en": "Senior Developer",
+    "zh": "senior 开发"
+  },
+  "profession": {
+    "en": "Senior Developer",
+    "zh": "senior 开发"
+  },
+  "displayDescription": {
+    "en": "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
+    "zh": "源自开源库 The Agency 的「senior 开发」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the Senior Developer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「senior 开发」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "senior-developer",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "senior",
+      "zh": "senior"
+    },
+    {
+      "en": "developer",
+      "zh": "开发"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Senior Developer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「senior 开发」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for senior 开发 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出senior 开发方向的分步落地计划。"
+    }
+  ]
+}

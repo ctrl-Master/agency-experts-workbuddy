@@ -1,0 +1,62 @@
+{
+  "name": "multi-platform-publisher",
+  "version": "1.0.0",
+  "description": "Expert orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/multi-platform-publisher.md"
+  ],
+  "expertType": "agent",
+  "agentName": "multi-platform-publisher",
+  "displayName": {
+    "en": "Multi-Platform Publisher",
+    "zh": "多 平台 publisher"
+  },
+  "profession": {
+    "en": "Multi-Platform Publisher",
+    "zh": "多 平台 publisher"
+  },
+  "displayDescription": {
+    "en": "Expert orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review.",
+    "zh": "源自开源库 The Agency 的「多 平台 publisher」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Multi-Platform Publisher (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「多 平台 publisher」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "multi-platform-publisher",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "multi",
+      "zh": "多"
+    },
+    {
+      "en": "platform",
+      "zh": "平台"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Multi-Platform Publisher (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「多 平台 publisher」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 多 平台 publisher adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出多 平台 publisher方向的分步落地计划。"
+    }
+  ]
+}

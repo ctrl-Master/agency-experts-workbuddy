@@ -1,0 +1,62 @@
+{
+  "name": "xr-interface-architect",
+  "version": "1.0.0",
+  "description": "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/xr-interface-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "xr-interface-architect",
+  "displayName": {
+    "en": "XR Interface Architect",
+    "zh": "xr interface 架构师"
+  },
+  "profession": {
+    "en": "XR Interface Architect",
+    "zh": "xr interface 架构师"
+  },
+  "displayDescription": {
+    "en": "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments",
+    "zh": "源自开源库 The Agency 的「xr interface 架构师」角色设定，专注空间计算领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the XR Interface Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「xr interface 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "xr-interface-architect",
+  "tags": [
+    {
+      "en": "spatial-computing",
+      "zh": "空间计算"
+    },
+    {
+      "en": "xr",
+      "zh": "xr"
+    },
+    {
+      "en": "interface",
+      "zh": "interface"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the XR Interface Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「xr interface 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current spatial-computing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的空间计算方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for xr interface 架构师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出xr interface 架构师方向的分步落地计划。"
+    }
+  ]
+}

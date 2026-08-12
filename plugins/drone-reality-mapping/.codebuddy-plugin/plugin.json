@@ -1,0 +1,62 @@
+{
+  "name": "drone-reality-mapping",
+  "version": "1.0.0",
+  "description": "Photogrammetry and reality capture expert who processes drone imagery into orthomosaics, digital terrain models, point clouds, and 3D meshes — bridging field capture and GIS-ready products.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/drone-reality-mapping.md"
+  ],
+  "expertType": "agent",
+  "agentName": "drone-reality-mapping",
+  "displayName": {
+    "en": "Drone/Reality Mapping Specialist",
+    "zh": "drone reality mapping"
+  },
+  "profession": {
+    "en": "Drone/Reality Mapping Specialist",
+    "zh": "drone reality mapping"
+  },
+  "displayDescription": {
+    "en": "Photogrammetry and reality capture expert who processes drone imagery into orthomosaics, digital terrain models, point clouds, and 3D meshes — bridging field capture and GIS-ready products.",
+    "zh": "源自开源库 The Agency 的「drone reality mapping」角色设定，专注地理空间领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the Drone/Reality Mapping Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「drone reality mapping」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "drone-reality-mapping",
+  "tags": [
+    {
+      "en": "gis",
+      "zh": "地理空间"
+    },
+    {
+      "en": "drone",
+      "zh": "drone"
+    },
+    {
+      "en": "reality",
+      "zh": "reality"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Drone/Reality Mapping Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「drone reality mapping」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current gis approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的地理空间方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for drone reality mapping adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出drone reality mapping方向的分步落地计划。"
+    }
+  ]
+}

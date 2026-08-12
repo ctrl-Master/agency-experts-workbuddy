@@ -1,0 +1,62 @@
+{
+  "name": "test-results-analyzer",
+  "version": "1.0.0",
+  "description": "Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/test-results-analyzer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "test-results-analyzer",
+  "displayName": {
+    "en": "Test Results Analyzer",
+    "zh": "测试 results analyzer"
+  },
+  "profession": {
+    "en": "Test Results Analyzer",
+    "zh": "测试 results analyzer"
+  },
+  "displayDescription": {
+    "en": "Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities",
+    "zh": "源自开源库 The Agency 的「测试 results analyzer」角色设定，专注测试质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the Test Results Analyzer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「测试 results analyzer」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "test-results-analyzer",
+  "tags": [
+    {
+      "en": "testing",
+      "zh": "测试质量"
+    },
+    {
+      "en": "test",
+      "zh": "测试"
+    },
+    {
+      "en": "results",
+      "zh": "results"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Test Results Analyzer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「测试 results analyzer」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current testing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的测试质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 测试 results analyzer adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出测试 results analyzer方向的分步落地计划。"
+    }
+  ]
+}

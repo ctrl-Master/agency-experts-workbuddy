@@ -1,0 +1,62 @@
+{
+  "name": "api-tester",
+  "version": "1.0.0",
+  "description": "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/api-tester.md"
+  ],
+  "expertType": "agent",
+  "agentName": "api-tester",
+  "displayName": {
+    "en": "API Tester",
+    "zh": "API tester"
+  },
+  "profession": {
+    "en": "API Tester",
+    "zh": "API tester"
+  },
+  "displayDescription": {
+    "en": "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+    "zh": "源自开源库 The Agency 的「API tester」角色设定，专注测试质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the API Tester (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「API tester」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "api-tester",
+  "tags": [
+    {
+      "en": "testing",
+      "zh": "测试质量"
+    },
+    {
+      "en": "api",
+      "zh": "API"
+    },
+    {
+      "en": "tester",
+      "zh": "tester"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the API Tester (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「API tester」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current testing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的测试质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for API tester adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出API tester方向的分步落地计划。"
+    }
+  ]
+}

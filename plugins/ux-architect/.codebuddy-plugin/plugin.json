@@ -1,0 +1,62 @@
+{
+  "name": "ux-architect",
+  "version": "1.0.0",
+  "description": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/ux-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ux-architect",
+  "displayName": {
+    "en": "UX Architect",
+    "zh": "UX 架构师"
+  },
+  "profession": {
+    "en": "UX Architect",
+    "zh": "UX 架构师"
+  },
+  "displayDescription": {
+    "en": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+    "zh": "源自开源库 The Agency 的「UX 架构师」角色设定，专注产品设计领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the UX Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「UX 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "ux-architect",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "产品设计"
+    },
+    {
+      "en": "ux",
+      "zh": "UX"
+    },
+    {
+      "en": "architect",
+      "zh": "架构师"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the UX Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「UX 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current design approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品设计方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for UX 架构师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出UX 架构师方向的分步落地计划。"
+    }
+  ]
+}

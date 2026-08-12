@@ -1,0 +1,62 @@
+{
+  "name": "creative-strategist",
+  "version": "1.0.0",
+  "description": "Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/creative-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "creative-strategist",
+  "displayName": {
+    "en": "Ad Creative Strategist",
+    "zh": "creative strategist"
+  },
+  "profession": {
+    "en": "Ad Creative Strategist",
+    "zh": "creative strategist"
+  },
+  "displayDescription": {
+    "en": "Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.",
+    "zh": "源自开源库 The Agency 的「creative strategist」角色设定，专注付费媒体领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Ad Creative Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「creative strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "creative-strategist",
+  "tags": [
+    {
+      "en": "paid-media",
+      "zh": "付费媒体"
+    },
+    {
+      "en": "creative",
+      "zh": "creative"
+    },
+    {
+      "en": "strategist",
+      "zh": "strategist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Ad Creative Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「creative strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current paid-media approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的付费媒体方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for creative strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出creative strategist方向的分步落地计划。"
+    }
+  ]
+}

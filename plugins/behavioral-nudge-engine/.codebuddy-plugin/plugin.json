@@ -1,0 +1,62 @@
+{
+  "name": "behavioral-nudge-engine",
+  "version": "1.0.0",
+  "description": "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/behavioral-nudge-engine.md"
+  ],
+  "expertType": "agent",
+  "agentName": "behavioral-nudge-engine",
+  "displayName": {
+    "en": "Behavioral Nudge Engine",
+    "zh": "behavioral nudge engine"
+  },
+  "profession": {
+    "en": "Behavioral Nudge Engine",
+    "zh": "behavioral nudge engine"
+  },
+  "displayDescription": {
+    "en": "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
+    "zh": "源自开源库 The Agency 的「behavioral nudge engine」角色设定，专注产品领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the Behavioral Nudge Engine (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「behavioral nudge engine」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "behavioral-nudge-engine",
+  "tags": [
+    {
+      "en": "product",
+      "zh": "产品"
+    },
+    {
+      "en": "behavioral",
+      "zh": "behavioral"
+    },
+    {
+      "en": "nudge",
+      "zh": "nudge"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Behavioral Nudge Engine (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「behavioral nudge engine」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current product approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for behavioral nudge engine adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出behavioral nudge engine方向的分步落地计划。"
+    }
+  ]
+}

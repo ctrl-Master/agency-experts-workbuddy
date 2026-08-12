@@ -1,0 +1,62 @@
+{
+  "name": "workflow-architect",
+  "version": "1.0.0",
+  "description": "Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/workflow-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "workflow-architect",
+  "displayName": {
+    "en": "Workflow Architect",
+    "zh": "工作流 架构师"
+  },
+  "profession": {
+    "en": "Workflow Architect",
+    "zh": "工作流 架构师"
+  },
+  "displayDescription": {
+    "en": "Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against.",
+    "zh": "源自开源库 The Agency 的「工作流 架构师」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Workflow Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「工作流 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "workflow-architect",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "workflow",
+      "zh": "工作流"
+    },
+    {
+      "en": "architect",
+      "zh": "架构师"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Workflow Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「工作流 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 工作流 架构师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出工作流 架构师方向的分步落地计划。"
+    }
+  ]
+}

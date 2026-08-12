@@ -1,0 +1,62 @@
+{
+  "name": "technical-artist",
+  "version": "1.0.0",
+  "description": "Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/technical-artist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "technical-artist",
+  "displayName": {
+    "en": "Technical Artist",
+    "zh": "技术 artist"
+  },
+  "profession": {
+    "en": "Technical Artist",
+    "zh": "技术 artist"
+  },
+  "displayDescription": {
+    "en": "Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization",
+    "zh": "源自开源库 The Agency 的「技术 artist」角色设定，专注游戏空间领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the Technical Artist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「技术 artist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "technical-artist",
+  "tags": [
+    {
+      "en": "game-development",
+      "zh": "游戏空间"
+    },
+    {
+      "en": "technical",
+      "zh": "技术"
+    },
+    {
+      "en": "artist",
+      "zh": "artist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Technical Artist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「技术 artist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current game-development approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的游戏空间方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 技术 artist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出技术 artist方向的分步落地计划。"
+    }
+  ]
+}

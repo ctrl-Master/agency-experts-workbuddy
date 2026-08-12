@@ -1,0 +1,62 @@
+{
+  "name": "jira-workflow-steward",
+  "version": "1.0.0",
+  "description": "Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/jira-workflow-steward.md"
+  ],
+  "expertType": "agent",
+  "agentName": "jira-workflow-steward",
+  "displayName": {
+    "en": "Jira Workflow Steward",
+    "zh": "jira 工作流 steward"
+  },
+  "profession": {
+    "en": "Jira Workflow Steward",
+    "zh": "jira 工作流 steward"
+  },
+  "displayDescription": {
+    "en": "Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams.",
+    "zh": "源自开源库 The Agency 的「jira 工作流 steward」角色设定，专注项目质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the Jira Workflow Steward (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「jira 工作流 steward」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "jira-workflow-steward",
+  "tags": [
+    {
+      "en": "project-management",
+      "zh": "项目质量"
+    },
+    {
+      "en": "jira",
+      "zh": "jira"
+    },
+    {
+      "en": "workflow",
+      "zh": "工作流"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Jira Workflow Steward (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「jira 工作流 steward」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current project-management approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的项目质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for jira 工作流 steward adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出jira 工作流 steward方向的分步落地计划。"
+    }
+  ]
+}

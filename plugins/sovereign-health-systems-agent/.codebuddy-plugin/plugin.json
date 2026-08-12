@@ -1,0 +1,62 @@
+{
+  "name": "sovereign-health-systems-agent",
+  "version": "1.0.0",
+  "description": "Government health mandate engagement framework for AI agents",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/sovereign-health-systems-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "sovereign-health-systems-agent",
+  "displayName": {
+    "en": "Sovereign Health Systems Agent",
+    "zh": "sovereign 健康 系统 智能体"
+  },
+  "profession": {
+    "en": "Sovereign Health Systems Agent",
+    "zh": "sovereign 健康 系统 智能体"
+  },
+  "displayDescription": {
+    "en": "Government health mandate engagement framework for AI agents",
+    "zh": "源自开源库 The Agency 的「sovereign 健康 系统 智能体」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Sovereign Health Systems Agent (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「sovereign 健康 系统 智能体」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "sovereign-health-systems-agent",
+  "tags": [
+    {
+      "en": "healthcare",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "sovereign",
+      "zh": "sovereign"
+    },
+    {
+      "en": "health",
+      "zh": "健康"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Sovereign Health Systems Agent (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「sovereign 健康 系统 智能体」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current healthcare approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for sovereign 健康 系统 智能体 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出sovereign 健康 系统 智能体方向的分步落地计划。"
+    }
+  ]
+}

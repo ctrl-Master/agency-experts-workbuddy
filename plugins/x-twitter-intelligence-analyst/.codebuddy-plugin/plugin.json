@@ -1,0 +1,62 @@
+{
+  "name": "x-twitter-intelligence-analyst",
+  "version": "1.0.0",
+  "description": "Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/x-twitter-intelligence-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "x-twitter-intelligence-analyst",
+  "displayName": {
+    "en": "X/Twitter Intelligence Analyst",
+    "zh": "x twitter intelligence analyst"
+  },
+  "profession": {
+    "en": "X/Twitter Intelligence Analyst",
+    "zh": "x twitter intelligence analyst"
+  },
+  "displayDescription": {
+    "en": "Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows.",
+    "zh": "源自开源库 The Agency 的「x twitter intelligence analyst」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the X/Twitter Intelligence Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「x twitter intelligence analyst」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "x-twitter-intelligence-analyst",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "x",
+      "zh": "x"
+    },
+    {
+      "en": "twitter",
+      "zh": "twitter"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the X/Twitter Intelligence Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「x twitter intelligence analyst」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for x twitter intelligence analyst adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出x twitter intelligence analyst方向的分步落地计划。"
+    }
+  ]
+}

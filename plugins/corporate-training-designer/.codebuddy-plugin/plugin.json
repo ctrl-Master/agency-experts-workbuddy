@@ -1,0 +1,62 @@
+{
+  "name": "corporate-training-designer",
+  "version": "1.0.0",
+  "description": "Expert in enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness evaluation and continuous optimization.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/corporate-training-designer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "corporate-training-designer",
+  "displayName": {
+    "en": "Corporate Training Designer",
+    "zh": "corporate training 设计师"
+  },
+  "profession": {
+    "en": "Corporate Training Designer",
+    "zh": "corporate training 设计师"
+  },
+  "displayDescription": {
+    "en": "Expert in enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness evaluation and continuous optimization.",
+    "zh": "源自开源库 The Agency 的「corporate training 设计师」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Corporate Training Designer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「corporate training 设计师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "corporate-training-designer",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "corporate",
+      "zh": "corporate"
+    },
+    {
+      "en": "training",
+      "zh": "training"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Corporate Training Designer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「corporate training 设计师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for corporate training 设计师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出corporate training 设计师方向的分步落地计划。"
+    }
+  ]
+}

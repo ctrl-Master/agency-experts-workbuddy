@@ -1,0 +1,62 @@
+{
+  "name": "proposal-strategist",
+  "version": "1.0.0",
+  "description": "Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Specializes in win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/proposal-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "proposal-strategist",
+  "displayName": {
+    "en": "Proposal Strategist",
+    "zh": "proposal strategist"
+  },
+  "profession": {
+    "en": "Proposal Strategist",
+    "zh": "proposal strategist"
+  },
+  "displayDescription": {
+    "en": "Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Specializes in win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply.",
+    "zh": "源自开源库 The Agency 的「proposal strategist」角色设定，专注销售电商领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "en": "Act as the Proposal Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「proposal strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "proposal-strategist",
+  "tags": [
+    {
+      "en": "sales",
+      "zh": "销售电商"
+    },
+    {
+      "en": "proposal",
+      "zh": "proposal"
+    },
+    {
+      "en": "strategist",
+      "zh": "strategist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Proposal Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「proposal strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current sales approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的销售电商方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for proposal strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出proposal strategist方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "database-reliability-engineer",
+  "version": "1.0.0",
+  "description": "Expert database reliability engineer (DBRE) — high availability and replication, automated failover, backup and point-in-time recovery, zero-downtime online schema migrations, connection pooling, and disaster-recovery drills. Focused on keeping data safe and available, not query tuning.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/database-reliability-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "database-reliability-engineer",
+  "displayName": {
+    "en": "Database Reliability Engineer",
+    "zh": "数据库 reliability 工程师"
+  },
+  "profession": {
+    "en": "Database Reliability Engineer",
+    "zh": "数据库 reliability 工程师"
+  },
+  "displayDescription": {
+    "en": "Expert database reliability engineer (DBRE) — high availability and replication, automated failover, backup and point-in-time recovery, zero-downtime online schema migrations, connection pooling, and disaster-recovery drills. Focused on keeping data safe and available, not query tuning.",
+    "zh": "源自开源库 The Agency 的「数据库 reliability 工程师」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the Database Reliability Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「数据库 reliability 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "database-reliability-engineer",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "database",
+      "zh": "数据库"
+    },
+    {
+      "en": "reliability",
+      "zh": "reliability"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Database Reliability Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「数据库 reliability 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 数据库 reliability 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出数据库 reliability 工程师方向的分步落地计划。"
+    }
+  ]
+}

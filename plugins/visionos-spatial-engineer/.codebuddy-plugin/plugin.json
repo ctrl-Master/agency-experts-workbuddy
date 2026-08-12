@@ -1,0 +1,62 @@
+{
+  "name": "visionos-spatial-engineer",
+  "version": "1.0.0",
+  "description": "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/visionos-spatial-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "visionos-spatial-engineer",
+  "displayName": {
+    "en": "visionOS Spatial Engineer",
+    "zh": "visionos 空间 工程师"
+  },
+  "profession": {
+    "en": "visionOS Spatial Engineer",
+    "zh": "visionos 空间 工程师"
+  },
+  "displayDescription": {
+    "en": "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation",
+    "zh": "源自开源库 The Agency 的「visionos 空间 工程师」角色设定，专注空间计算领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the visionOS Spatial Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「visionos 空间 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "visionos-spatial-engineer",
+  "tags": [
+    {
+      "en": "spatial-computing",
+      "zh": "空间计算"
+    },
+    {
+      "en": "visionos",
+      "zh": "visionos"
+    },
+    {
+      "en": "spatial",
+      "zh": "空间"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the visionOS Spatial Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「visionos 空间 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current spatial-computing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的空间计算方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for visionos 空间 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出visionos 空间 工程师方向的分步落地计划。"
+    }
+  ]
+}

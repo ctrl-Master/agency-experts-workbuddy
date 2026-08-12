@@ -1,0 +1,62 @@
+{
+  "name": "deal-strategist",
+  "version": "1.0.0",
+  "description": "Senior deal strategist specializing in MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and builds deal strategies that survive forecast review.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/deal-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "deal-strategist",
+  "displayName": {
+    "en": "Deal Strategist",
+    "zh": "deal strategist"
+  },
+  "profession": {
+    "en": "Deal Strategist",
+    "zh": "deal strategist"
+  },
+  "displayDescription": {
+    "en": "Senior deal strategist specializing in MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and builds deal strategies that survive forecast review.",
+    "zh": "源自开源库 The Agency 的「deal strategist」角色设定，专注销售电商领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "en": "Act as the Deal Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「deal strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "deal-strategist",
+  "tags": [
+    {
+      "en": "sales",
+      "zh": "销售电商"
+    },
+    {
+      "en": "deal",
+      "zh": "deal"
+    },
+    {
+      "en": "strategist",
+      "zh": "strategist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Deal Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「deal strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current sales approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的销售电商方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for deal strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出deal strategist方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "korean-business-navigator",
+  "version": "1.0.0",
+  "description": "Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/korean-business-navigator.md"
+  ],
+  "expertType": "agent",
+  "agentName": "korean-business-navigator",
+  "displayName": {
+    "en": "Korean Business Navigator",
+    "zh": "korean business navigator"
+  },
+  "profession": {
+    "en": "Korean Business Navigator",
+    "zh": "korean business navigator"
+  },
+  "displayDescription": {
+    "en": "Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics",
+    "zh": "源自开源库 The Agency 的「korean business navigator」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Korean Business Navigator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「korean business navigator」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "korean-business-navigator",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "korean",
+      "zh": "korean"
+    },
+    {
+      "en": "business",
+      "zh": "business"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Korean Business Navigator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「korean business navigator」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for korean business navigator adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出korean business navigator方向的分步落地计划。"
+    }
+  ]
+}

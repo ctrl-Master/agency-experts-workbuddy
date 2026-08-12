@@ -1,0 +1,62 @@
+{
+  "name": "wechat-mini-program-developer",
+  "version": "1.0.0",
+  "description": "Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/wechat-mini-program-developer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "wechat-mini-program-developer",
+  "displayName": {
+    "en": "WeChat Mini Program Developer",
+    "zh": "微信小程序开发专家"
+  },
+  "profession": {
+    "en": "WeChat Mini Program Engineer",
+    "zh": "微信小程序工程师"
+  },
+  "displayDescription": {
+    "en": "WeChat Mini Program expert: WXML/WXSS, WeChat Pay, subscription messaging, review compliance.",
+    "zh": "深耕微信生态的小程序开发：WXML/WXSS、微信支付、订阅消息、性能优化与过审合规。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Decompose this requirement into Mini Program page structure, subpackage plan, and required API domain config.",
+    "zh": "帮我把这个需求拆解成微信小程序的页面结构、分包方案与需要的 API 域名配置。"
+  },
+  "plugin": "wechat-mini-program-developer",
+  "tags": [
+    {
+      "en": "WXML/WXSS",
+      "zh": "WXML/WXSS"
+    },
+    {
+      "en": "WeChat Pay",
+      "zh": "微信支付"
+    },
+    {
+      "en": "Review Compliance",
+      "zh": "过审合规"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Decompose this requirement into Mini Program page structure, subpackage plan, and required API domain config.",
+      "zh": "帮我把这个需求拆解成微信小程序的页面结构、分包方案与需要的 API 域名配置。"
+    },
+    {
+      "en": "Give a unified request layer (wx.request wrapper) with auth and error handling.",
+      "zh": "给我一个带登录态与错误处理的微信小程序统一请求层（wx.request 封装）示例。"
+    },
+    {
+      "en": "Review my Mini Program for compliance and permission issues that trigger review rejection.",
+      "zh": "审查我的小程序，指出可能触发微信审核驳回的合规与权限问题。"
+    }
+  ]
+}

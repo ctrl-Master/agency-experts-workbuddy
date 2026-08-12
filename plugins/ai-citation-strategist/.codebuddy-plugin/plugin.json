@@ -1,0 +1,62 @@
+{
+  "name": "ai-citation-strategist",
+  "version": "1.0.0",
+  "description": "Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/ai-citation-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-citation-strategist",
+  "displayName": {
+    "en": "AI Citation Strategist",
+    "zh": "AI citation strategist"
+  },
+  "profession": {
+    "en": "AI Citation Strategist",
+    "zh": "AI citation strategist"
+  },
+  "displayDescription": {
+    "en": "Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations",
+    "zh": "源自开源库 The Agency 的「AI citation strategist」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the AI Citation Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「AI citation strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "ai-citation-strategist",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "ai",
+      "zh": "AI"
+    },
+    {
+      "en": "citation",
+      "zh": "citation"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the AI Citation Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「AI citation strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for AI citation strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出AI citation strategist方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "multi-agent-systems-architect",
+  "version": "1.0.0",
+  "description": "Systems architect specializing in the design, coordination, and governance of multi-agent AI pipelines — covering topology selection, context management, inter-agent trust, failure recovery, human-in-the-loop gating, and observability for production-grade agent systems.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/multi-agent-systems-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "multi-agent-systems-architect",
+  "displayName": {
+    "en": "Multi-Agent Systems Architect",
+    "zh": "多智能体系统架构师"
+  },
+  "profession": {
+    "en": "Agent Pipeline Architecture & Governance",
+    "zh": "多智能体系统架构专家"
+  },
+  "displayDescription": {
+    "en": "Designs multi-agent pipelines as distributed systems: topology, failure recovery, observability.",
+    "zh": "把多智能体管线当作分布式生产系统设计：拓扑选型、失败恢复、权限隔离与全链路可观测治理。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "en": "Design a multi-agent collaboration architecture: draw the topology and specify each agent's I/O contract and fallback.",
+    "zh": "帮我设计一套多智能体协作架构，画出拓扑并标出每个智能体的输入/输出契约与失败回退。"
+  },
+  "plugin": "multi-agent-systems-architect",
+  "tags": [
+    {
+      "en": "Topology Design",
+      "zh": "拓扑设计"
+    },
+    {
+      "en": "Failure Recovery",
+      "zh": "失败恢复"
+    },
+    {
+      "en": "Observability",
+      "zh": "可观测性"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Design a multi-agent collaboration architecture: draw the topology and specify each agent's I/O contract and fallback.",
+      "zh": "帮我设计一套多智能体协作架构，画出拓扑并标出每个智能体的输入/输出契约与失败回退。"
+    },
+    {
+      "en": "One agent in my chain times out — design a recovery path with circuit breaker and degraded fallback.",
+      "zh": "我的智能体链路在某一环超时了，帮我设计带熔断与降级回退的恢复路径。"
+    },
+    {
+      "en": "Review this multi-agent design and list hidden failure modes plus pre-launch eval requirements.",
+      "zh": "审查这套多智能体方案，列出隐性失败模式与上线前必须补齐的评测。"
+    }
+  ]
+}

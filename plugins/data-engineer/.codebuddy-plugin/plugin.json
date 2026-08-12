@@ -1,0 +1,62 @@
+{
+  "name": "data-engineer",
+  "version": "1.0.0",
+  "description": "Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/data-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "data-engineer",
+  "displayName": {
+    "en": "Data Engineer",
+    "zh": "数据 工程师"
+  },
+  "profession": {
+    "en": "Data Engineer",
+    "zh": "数据 工程师"
+  },
+  "displayDescription": {
+    "en": "Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets.",
+    "zh": "源自开源库 The Agency 的「数据 工程师」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the Data Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「数据 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "data-engineer",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "data",
+      "zh": "数据"
+    },
+    {
+      "en": "engineer",
+      "zh": "工程师"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Data Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「数据 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 数据 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出数据 工程师方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "incident-response-commander",
+  "version": "1.0.0",
+  "description": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/incident-response-commander.md"
+  ],
+  "expertType": "agent",
+  "agentName": "incident-response-commander",
+  "displayName": {
+    "en": "Incident Response Commander",
+    "zh": "incident response commander"
+  },
+  "profession": {
+    "en": "Incident Response Commander",
+    "zh": "incident response commander"
+  },
+  "displayDescription": {
+    "en": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
+    "zh": "源自开源库 The Agency 的「incident response commander」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the Incident Response Commander (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「incident response commander」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "incident-response-commander",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "incident",
+      "zh": "incident"
+    },
+    {
+      "en": "response",
+      "zh": "response"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Incident Response Commander (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「incident response commander」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for incident response commander adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出incident response commander方向的分步落地计划。"
+    }
+  ]
+}

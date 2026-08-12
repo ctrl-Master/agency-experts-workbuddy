@@ -1,0 +1,62 @@
+{
+  "name": "linkedin-content-creator",
+  "version": "1.0.0",
+  "description": "Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/linkedin-content-creator.md"
+  ],
+  "expertType": "agent",
+  "agentName": "linkedin-content-creator",
+  "displayName": {
+    "en": "LinkedIn Content Creator",
+    "zh": "linkedin 内容 creator"
+  },
+  "profession": {
+    "en": "LinkedIn Content Creator",
+    "zh": "linkedin 内容 creator"
+  },
+  "displayDescription": {
+    "en": "Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence.",
+    "zh": "源自开源库 The Agency 的「linkedin 内容 creator」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the LinkedIn Content Creator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「linkedin 内容 creator」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "linkedin-content-creator",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "linkedin",
+      "zh": "linkedin"
+    },
+    {
+      "en": "content",
+      "zh": "内容"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the LinkedIn Content Creator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「linkedin 内容 creator」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for linkedin 内容 creator adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出linkedin 内容 creator方向的分步落地计划。"
+    }
+  ]
+}

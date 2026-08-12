@@ -1,0 +1,62 @@
+{
+  "name": "programmatic-buyer",
+  "version": "1.0.0",
+  "description": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/programmatic-buyer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "programmatic-buyer",
+  "displayName": {
+    "en": "Programmatic & Display Buyer",
+    "zh": "programmatic buyer"
+  },
+  "profession": {
+    "en": "Programmatic & Display Buyer",
+    "zh": "programmatic buyer"
+  },
+  "displayDescription": {
+    "en": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
+    "zh": "源自开源库 The Agency 的「programmatic buyer」角色设定，专注付费媒体领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Programmatic & Display Buyer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「programmatic buyer」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "programmatic-buyer",
+  "tags": [
+    {
+      "en": "paid-media",
+      "zh": "付费媒体"
+    },
+    {
+      "en": "programmatic",
+      "zh": "programmatic"
+    },
+    {
+      "en": "buyer",
+      "zh": "buyer"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Programmatic & Display Buyer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「programmatic buyer」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current paid-media approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的付费媒体方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for programmatic buyer adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出programmatic buyer方向的分步落地计划。"
+    }
+  ]
+}

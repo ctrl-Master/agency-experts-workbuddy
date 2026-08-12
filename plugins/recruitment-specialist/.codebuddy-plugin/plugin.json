@@ -1,0 +1,62 @@
+{
+  "name": "recruitment-specialist",
+  "version": "1.0.0",
+  "description": "Expert recruitment operations and talent acquisition specialist — skilled in China's major hiring platforms, talent assessment frameworks, and labor law compliance. Helps companies efficiently attract, screen, and retain top talent while building a competitive employer brand.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/recruitment-specialist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "recruitment-specialist",
+  "displayName": {
+    "en": "Recruitment Specialist",
+    "zh": "recruitment 专家"
+  },
+  "profession": {
+    "en": "Recruitment Specialist",
+    "zh": "recruitment 专家"
+  },
+  "displayDescription": {
+    "en": "Expert recruitment operations and talent acquisition specialist — skilled in China's major hiring platforms, talent assessment frameworks, and labor law compliance. Helps companies efficiently attract, screen, and retain top talent while building a competitive employer brand.",
+    "zh": "源自开源库 The Agency 的「recruitment 专家」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Recruitment Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「recruitment 专家」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "recruitment-specialist",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "recruitment",
+      "zh": "recruitment"
+    },
+    {
+      "en": "specialist",
+      "zh": "专家"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Recruitment Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「recruitment 专家」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for recruitment 专家 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出recruitment 专家方向的分步落地计划。"
+    }
+  ]
+}

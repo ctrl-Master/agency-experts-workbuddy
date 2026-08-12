@@ -1,0 +1,62 @@
+{
+  "name": "investment-researcher",
+  "version": "1.0.0",
+  "description": "Expert investment researcher specializing in market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/investment-researcher.md"
+  ],
+  "expertType": "agent",
+  "agentName": "investment-researcher",
+  "displayName": {
+    "en": "Investment Researcher",
+    "zh": "investment researcher"
+  },
+  "profession": {
+    "en": "Investment Researcher",
+    "zh": "investment researcher"
+  },
+  "displayDescription": {
+    "en": "Expert investment researcher specializing in market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets.",
+    "zh": "源自开源库 The Agency 的「investment researcher」角色设定，专注金融投资领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "en": "Act as the Investment Researcher (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「investment researcher」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "investment-researcher",
+  "tags": [
+    {
+      "en": "finance",
+      "zh": "金融投资"
+    },
+    {
+      "en": "investment",
+      "zh": "investment"
+    },
+    {
+      "en": "researcher",
+      "zh": "researcher"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Investment Researcher (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「investment researcher」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current finance approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的金融投资方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for investment researcher adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出investment researcher方向的分步落地计划。"
+    }
+  ]
+}

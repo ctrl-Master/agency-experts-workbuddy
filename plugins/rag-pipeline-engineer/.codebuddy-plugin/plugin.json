@@ -1,0 +1,62 @@
+{
+  "name": "rag-pipeline-engineer",
+  "version": "1.0.0",
+  "description": "Production RAG specialist focused on chunking strategy, retrieval quality, hybrid search, re-ranking, and eval-driven iteration. Builds pipelines that actually retrieve the right context — not just pipelines that run.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/rag-pipeline-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "rag-pipeline-engineer",
+  "displayName": {
+    "en": "RAG Pipeline Engineer",
+    "zh": "RAG 检索增强工程师"
+  },
+  "profession": {
+    "en": "RAG & Retrieval Specialist",
+    "zh": "RAG 检索增强专家"
+  },
+  "displayDescription": {
+    "en": "Production-grade RAG specialist: chunking, hybrid search, re-ranking, eval-driven iteration.",
+    "zh": "面向生产的 RAG 工程师：分块策略、混合检索、重排序，以及以评测驱动的检索质量持续打磨。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "en": "Review my RAG retrieval chain and point out quantifiable improvements in chunking, hybrid search, and re-ranking.",
+    "zh": "帮我审查这套 RAG 检索链路，指出分块、混合检索与重排序上可量化的改进点。"
+  },
+  "plugin": "rag-pipeline-engineer",
+  "tags": [
+    {
+      "en": "RAG Retrieval",
+      "zh": "RAG 检索"
+    },
+    {
+      "en": "Chunking & Indexing",
+      "zh": "分块与索引"
+    },
+    {
+      "en": "Eval-driven",
+      "zh": "评测驱动"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Review my RAG retrieval chain and point out quantifiable improvements in chunking, hybrid search, and re-ranking.",
+      "zh": "帮我审查这套 RAG 检索链路，指出分块、混合检索与重排序上可量化的改进点。"
+    },
+    {
+      "en": "Give me a production-grade pgvector + HNSW schema with hybrid search SQL.",
+      "zh": "给我一个 pgvector + HNSW 的生产级建表与混合检索 SQL 示例。"
+    },
+    {
+      "en": "Design an eval set and metrics (RAGAS) for my RAG pipeline.",
+      "zh": "为我的 RAG 管线设计一套评测集与指标（RAGAS）方案。"
+    }
+  ]
+}

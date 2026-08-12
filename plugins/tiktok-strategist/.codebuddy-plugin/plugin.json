@@ -1,0 +1,62 @@
+{
+  "name": "tiktok-strategist",
+  "version": "1.0.0",
+  "description": "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/tiktok-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "tiktok-strategist",
+  "displayName": {
+    "en": "TikTok Strategist",
+    "zh": "tiktok strategist"
+  },
+  "profession": {
+    "en": "TikTok Strategist",
+    "zh": "tiktok strategist"
+  },
+  "displayDescription": {
+    "en": "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.",
+    "zh": "源自开源库 The Agency 的「tiktok strategist」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the TikTok Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「tiktok strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "tiktok-strategist",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "tiktok",
+      "zh": "tiktok"
+    },
+    {
+      "en": "strategist",
+      "zh": "strategist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the TikTok Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「tiktok strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for tiktok strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出tiktok strategist方向的分步落地计划。"
+    }
+  ]
+}

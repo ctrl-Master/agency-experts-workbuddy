@@ -1,0 +1,62 @@
+{
+  "name": "paid-social-strategist",
+  "version": "1.0.0",
+  "description": "Cross-platform paid social advertising specialist covering Meta (Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, and Snapchat. Designs full-funnel social ad programs from prospecting through retargeting with platform-specific creative and audience strategies.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/paid-social-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "paid-social-strategist",
+  "displayName": {
+    "en": "Paid Social Strategist",
+    "zh": "paid 社交 strategist"
+  },
+  "profession": {
+    "en": "Paid Social Strategist",
+    "zh": "paid 社交 strategist"
+  },
+  "displayDescription": {
+    "en": "Cross-platform paid social advertising specialist covering Meta (Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, and Snapchat. Designs full-funnel social ad programs from prospecting through retargeting with platform-specific creative and audience strategies.",
+    "zh": "源自开源库 The Agency 的「paid 社交 strategist」角色设定，专注付费媒体领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Paid Social Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「paid 社交 strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "paid-social-strategist",
+  "tags": [
+    {
+      "en": "paid-media",
+      "zh": "付费媒体"
+    },
+    {
+      "en": "paid",
+      "zh": "paid"
+    },
+    {
+      "en": "social",
+      "zh": "社交"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Paid Social Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「paid 社交 strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current paid-media approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的付费媒体方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for paid 社交 strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出paid 社交 strategist方向的分步落地计划。"
+    }
+  ]
+}

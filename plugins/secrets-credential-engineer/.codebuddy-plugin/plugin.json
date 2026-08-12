@@ -1,0 +1,62 @@
+{
+  "name": "secrets-credential-engineer",
+  "version": "1.0.0",
+  "description": "Owns the full lifecycle of secrets and credentials — detection, prevention, vaulting, rotation, and leak response — so an application runs on short-lived, least-privilege credentials that are never in the code and are already rotated by the time a leak is found.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/secrets-credential-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "secrets-credential-engineer",
+  "displayName": {
+    "en": "Secrets & Credential Hygiene Engineer",
+    "zh": "secrets credential 工程师"
+  },
+  "profession": {
+    "en": "Secrets & Credential Hygiene Engineer",
+    "zh": "secrets credential 工程师"
+  },
+  "displayDescription": {
+    "en": "Owns the full lifecycle of secrets and credentials — detection, prevention, vaulting, rotation, and leak response — so an application runs on short-lived, least-privilege credentials that are never in the code and are already rotated by the time a leak is found.",
+    "zh": "源自开源库 The Agency 的「secrets credential 工程师」角色设定，专注安全合规领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "en": "Act as the Secrets & Credential Hygiene Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「secrets credential 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "secrets-credential-engineer",
+  "tags": [
+    {
+      "en": "security",
+      "zh": "安全合规"
+    },
+    {
+      "en": "secrets",
+      "zh": "secrets"
+    },
+    {
+      "en": "credential",
+      "zh": "credential"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Secrets & Credential Hygiene Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「secrets credential 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current security approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的安全合规方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for secrets credential 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出secrets credential 工程师方向的分步落地计划。"
+    }
+  ]
+}

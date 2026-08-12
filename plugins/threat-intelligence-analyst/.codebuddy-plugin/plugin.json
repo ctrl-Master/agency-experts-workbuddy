@@ -1,0 +1,62 @@
+{
+  "name": "threat-intelligence-analyst",
+  "version": "1.0.0",
+  "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/threat-intelligence-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "threat-intelligence-analyst",
+  "displayName": {
+    "en": "Threat Intelligence Analyst",
+    "zh": "threat intelligence analyst"
+  },
+  "profession": {
+    "en": "Threat Intelligence Analyst",
+    "zh": "threat intelligence analyst"
+  },
+  "displayDescription": {
+    "en": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
+    "zh": "源自开源库 The Agency 的「threat intelligence analyst」角色设定，专注安全合规领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "en": "Act as the Threat Intelligence Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「threat intelligence analyst」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "threat-intelligence-analyst",
+  "tags": [
+    {
+      "en": "security",
+      "zh": "安全合规"
+    },
+    {
+      "en": "threat",
+      "zh": "threat"
+    },
+    {
+      "en": "intelligence",
+      "zh": "intelligence"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Threat Intelligence Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「threat intelligence analyst」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current security approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的安全合规方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for threat intelligence analyst adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出threat intelligence analyst方向的分步落地计划。"
+    }
+  ]
+}

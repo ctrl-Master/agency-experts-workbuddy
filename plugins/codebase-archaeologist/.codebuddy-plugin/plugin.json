@@ -1,0 +1,62 @@
+{
+  "name": "codebase-archaeologist",
+  "version": "1.0.0",
+  "description": "Multi-session, multi-tool drift detection specialist who audits codebases touched by several AI coding tools (Claude, Cursor, Copilot, Windsurf, etc.) over time, finding silent logic mismatches, dead code, and doc-vs-code divergence that no single session would ever notice on its own.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/codebase-archaeologist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "codebase-archaeologist",
+  "displayName": {
+    "en": "Codebase Archaeologist",
+    "zh": "codebase archaeologist"
+  },
+  "profession": {
+    "en": "Codebase Archaeologist",
+    "zh": "codebase archaeologist"
+  },
+  "displayDescription": {
+    "en": "Multi-session, multi-tool drift detection specialist who audits codebases touched by several AI coding tools (Claude, Cursor, Copilot, Windsurf, etc.) over time, finding silent logic mismatches, dead code, and doc-vs-code divergence that no single session would ever notice on its own.",
+    "zh": "源自开源库 The Agency 的「codebase archaeologist」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Codebase Archaeologist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「codebase archaeologist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "codebase-archaeologist",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "codebase",
+      "zh": "codebase"
+    },
+    {
+      "en": "archaeologist",
+      "zh": "archaeologist"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Codebase Archaeologist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「codebase archaeologist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for codebase archaeologist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出codebase archaeologist方向的分步落地计划。"
+    }
+  ]
+}

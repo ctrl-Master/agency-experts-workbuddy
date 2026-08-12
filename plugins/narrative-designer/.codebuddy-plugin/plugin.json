@@ -1,0 +1,62 @@
+{
+  "name": "narrative-designer",
+  "version": "1.0.0",
+  "description": "Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/narrative-designer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "narrative-designer",
+  "displayName": {
+    "en": "Narrative Designer",
+    "zh": "narrative 设计师"
+  },
+  "profession": {
+    "en": "Narrative Designer",
+    "zh": "narrative 设计师"
+  },
+  "displayDescription": {
+    "en": "Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines",
+    "zh": "源自开源库 The Agency 的「narrative 设计师」角色设定，专注游戏空间领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the Narrative Designer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「narrative 设计师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "narrative-designer",
+  "tags": [
+    {
+      "en": "game-development",
+      "zh": "游戏空间"
+    },
+    {
+      "en": "narrative",
+      "zh": "narrative"
+    },
+    {
+      "en": "designer",
+      "zh": "设计师"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Narrative Designer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「narrative 设计师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current game-development approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的游戏空间方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for narrative 设计师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出narrative 设计师方向的分步落地计划。"
+    }
+  ]
+}

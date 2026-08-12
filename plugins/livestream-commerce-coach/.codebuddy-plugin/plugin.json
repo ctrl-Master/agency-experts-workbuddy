@@ -1,0 +1,62 @@
+{
+  "name": "livestream-commerce-coach",
+  "version": "1.0.0",
+  "description": "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/livestream-commerce-coach.md"
+  ],
+  "expertType": "agent",
+  "agentName": "livestream-commerce-coach",
+  "displayName": {
+    "en": "Livestream Commerce Coach",
+    "zh": "livestream commerce coach"
+  },
+  "profession": {
+    "en": "Livestream Commerce Coach",
+    "zh": "livestream commerce coach"
+  },
+  "displayDescription": {
+    "en": "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization.",
+    "zh": "源自开源库 The Agency 的「livestream commerce coach」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Livestream Commerce Coach (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「livestream commerce coach」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "livestream-commerce-coach",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "livestream",
+      "zh": "livestream"
+    },
+    {
+      "en": "commerce",
+      "zh": "commerce"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Livestream Commerce Coach (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「livestream commerce coach」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for livestream commerce coach adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出livestream commerce coach方向的分步落地计划。"
+    }
+  ]
+}

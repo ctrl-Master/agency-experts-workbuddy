@@ -1,0 +1,62 @@
+{
+  "name": "reddit-community-builder",
+  "version": "1.0.0",
+  "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/reddit-community-builder.md"
+  ],
+  "expertType": "agent",
+  "agentName": "reddit-community-builder",
+  "displayName": {
+    "en": "Reddit Community Builder",
+    "zh": "reddit community builder"
+  },
+  "profession": {
+    "en": "Reddit Community Builder",
+    "zh": "reddit community builder"
+  },
+  "displayDescription": {
+    "en": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
+    "zh": "源自开源库 The Agency 的「reddit community builder」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Reddit Community Builder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「reddit community builder」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "reddit-community-builder",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "reddit",
+      "zh": "reddit"
+    },
+    {
+      "en": "community",
+      "zh": "community"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Reddit Community Builder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「reddit community builder」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for reddit community builder adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出reddit community builder方向的分步落地计划。"
+    }
+  ]
+}

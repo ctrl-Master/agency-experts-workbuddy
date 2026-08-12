@@ -1,0 +1,62 @@
+{
+  "name": "prompt-engineer",
+  "version": "1.0.0",
+  "description": "Specialist in crafting, testing, and systematically optimizing prompts for LLMs — turning vague instructions into reliable, production-grade AI behaviors.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/prompt-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "prompt-engineer",
+  "displayName": {
+    "en": "Prompt Engineer",
+    "zh": "提示词工程师"
+  },
+  "profession": {
+    "en": "LLM Prompt & Behavior Specialist",
+    "zh": "大模型提示词专家"
+  },
+  "displayDescription": {
+    "en": "Turns vague requirements into testable, versioned, production-reliable LLM prompts.",
+    "zh": "把模糊的产品需求转化为可测试、可版本化、生产可靠的 LLM 行为契约与系统提示词。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "en": "Rewrite this vague instruction into a structured system prompt with constraints, examples, and failure-mode handling.",
+    "zh": "帮我把这段模糊指令改写成结构化系统提示词，包含约束、示例与失败模式处理。"
+  },
+  "plugin": "prompt-engineer",
+  "tags": [
+    {
+      "en": "Prompt Design",
+      "zh": "提示词设计"
+    },
+    {
+      "en": "Few-shot & CoT",
+      "zh": "示例与思维链"
+    },
+    {
+      "en": "Regression Testing",
+      "zh": "提示词回归测试"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Rewrite this vague instruction into a structured system prompt with constraints, examples, and failure-mode handling.",
+      "zh": "帮我把这段模糊指令改写成结构化系统提示词，包含约束、示例与失败模式处理。"
+    },
+    {
+      "en": "Give me a prompt engineering template with versioning and regression tests.",
+      "zh": "给我一个带版本管理与回归测试的提示词工程模板。"
+    },
+    {
+      "en": "Audit my existing prompt for ambiguities that cause hallucinations or format errors.",
+      "zh": "审查我现有的提示词，找出导致幻觉或格式错误的歧义点。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "xr-cockpit-interaction-specialist",
+  "version": "1.0.0",
+  "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/xr-cockpit-interaction-specialist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "xr-cockpit-interaction-specialist",
+  "displayName": {
+    "en": "XR Cockpit Interaction Specialist",
+    "zh": "xr cockpit interaction 专家"
+  },
+  "profession": {
+    "en": "XR Cockpit Interaction Specialist",
+    "zh": "xr cockpit interaction 专家"
+  },
+  "displayDescription": {
+    "en": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+    "zh": "源自开源库 The Agency 的「xr cockpit interaction 专家」角色设定，专注空间计算领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the XR Cockpit Interaction Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「xr cockpit interaction 专家」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "xr-cockpit-interaction-specialist",
+  "tags": [
+    {
+      "en": "spatial-computing",
+      "zh": "空间计算"
+    },
+    {
+      "en": "xr",
+      "zh": "xr"
+    },
+    {
+      "en": "cockpit",
+      "zh": "cockpit"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the XR Cockpit Interaction Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「xr cockpit interaction 专家」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current spatial-computing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的空间计算方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for xr cockpit interaction 专家 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出xr cockpit interaction 专家方向的分步落地计划。"
+    }
+  ]
+}

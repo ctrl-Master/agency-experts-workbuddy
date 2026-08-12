@@ -1,0 +1,62 @@
+{
+  "name": "strategy-duel-agent",
+  "version": "1.0.0",
+  "description": "Conducts live strategy duels using game theory and the 36 Chinese stratagems",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/strategy-duel-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "strategy-duel-agent",
+  "displayName": {
+    "en": "Strategy Duel Agent",
+    "zh": "战略 duel 智能体"
+  },
+  "profession": {
+    "en": "Strategy Duel Agent",
+    "zh": "战略 duel 智能体"
+  },
+  "displayDescription": {
+    "en": "Conducts live strategy duels using game theory and the 36 Chinese stratagems",
+    "zh": "源自开源库 The Agency 的「战略 duel 智能体」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Strategy Duel Agent (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「战略 duel 智能体」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "strategy-duel-agent",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "strategy",
+      "zh": "战略"
+    },
+    {
+      "en": "duel",
+      "zh": "duel"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Strategy Duel Agent (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「战略 duel 智能体」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 战略 duel 智能体 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出战略 duel 智能体方向的分步落地计划。"
+    }
+  ]
+}

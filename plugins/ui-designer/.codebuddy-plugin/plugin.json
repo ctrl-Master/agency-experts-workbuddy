@@ -1,0 +1,62 @@
+{
+  "name": "ui-designer",
+  "version": "1.0.0",
+  "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/ui-designer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ui-designer",
+  "displayName": {
+    "en": "UI Designer",
+    "zh": "UI 设计师"
+  },
+  "profession": {
+    "en": "UI Designer",
+    "zh": "UI 设计师"
+  },
+  "displayDescription": {
+    "en": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+    "zh": "源自开源库 The Agency 的「UI 设计师」角色设定，专注产品设计领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the UI Designer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「UI 设计师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "ui-designer",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "产品设计"
+    },
+    {
+      "en": "ui",
+      "zh": "UI"
+    },
+    {
+      "en": "designer",
+      "zh": "设计师"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the UI Designer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「UI 设计师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current design approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品设计方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for UI 设计师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出UI 设计师方向的分步落地计划。"
+    }
+  ]
+}

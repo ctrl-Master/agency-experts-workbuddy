@@ -1,0 +1,62 @@
+{
+  "name": "automation-governance-architect",
+  "version": "1.0.0",
+  "description": "Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/automation-governance-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "automation-governance-architect",
+  "displayName": {
+    "en": "Automation Governance Architect",
+    "zh": "自动化 governance 架构师"
+  },
+  "profession": {
+    "en": "Automation Governance Architect",
+    "zh": "自动化 governance 架构师"
+  },
+  "displayDescription": {
+    "en": "Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
+    "zh": "源自开源库 The Agency 的「自动化 governance 架构师」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Automation Governance Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「自动化 governance 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "automation-governance-architect",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "automation",
+      "zh": "自动化"
+    },
+    {
+      "en": "governance",
+      "zh": "governance"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Automation Governance Architect (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「自动化 governance 架构师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 自动化 governance 架构师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出自动化 governance 架构师方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "auditor",
+  "version": "1.0.0",
+  "description": "Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/auditor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "auditor",
+  "displayName": {
+    "en": "Paid Media Auditor",
+    "zh": "auditor"
+  },
+  "profession": {
+    "en": "Paid Media Auditor",
+    "zh": "auditor"
+  },
+  "displayDescription": {
+    "en": "Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact.",
+    "zh": "源自开源库 The Agency 的「auditor」角色设定，专注付费媒体领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Paid Media Auditor (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「auditor」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "auditor",
+  "tags": [
+    {
+      "en": "paid-media",
+      "zh": "付费媒体"
+    },
+    {
+      "en": "auditor",
+      "zh": "auditor"
+    },
+    {
+      "en": "paid-media",
+      "zh": "付费媒体"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Paid Media Auditor (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「auditor」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current paid-media approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的付费媒体方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for auditor adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出auditor方向的分步落地计划。"
+    }
+  ]
+}

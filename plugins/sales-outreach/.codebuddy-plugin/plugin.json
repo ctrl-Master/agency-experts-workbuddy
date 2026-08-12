@@ -1,0 +1,62 @@
+{
+  "name": "sales-outreach",
+  "version": "1.0.0",
+  "description": "Consultative B2B sales outreach specialist for cold prospecting, lead follow-up, objection handling, proposal writing, and pipeline management — combining data-driven targeting with genuine relationship-building to open doors and close deals",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/sales-outreach.md"
+  ],
+  "expertType": "agent",
+  "agentName": "sales-outreach",
+  "displayName": {
+    "en": "Sales Outreach",
+    "zh": "销售 outreach"
+  },
+  "profession": {
+    "en": "Sales Outreach",
+    "zh": "销售 outreach"
+  },
+  "displayDescription": {
+    "en": "Consultative B2B sales outreach specialist for cold prospecting, lead follow-up, objection handling, proposal writing, and pipeline management — combining data-driven targeting with genuine relationship-building to open doors and close deals",
+    "zh": "源自开源库 The Agency 的「销售 outreach」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Sales Outreach (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「销售 outreach」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "sales-outreach",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "sales",
+      "zh": "销售"
+    },
+    {
+      "en": "outreach",
+      "zh": "outreach"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Sales Outreach (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「销售 outreach」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 销售 outreach adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出销售 outreach方向的分步落地计划。"
+    }
+  ]
+}

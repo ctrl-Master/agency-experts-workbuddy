@@ -1,0 +1,62 @@
+{
+  "name": "gaussdb-expert",
+  "version": "1.0.0",
+  "description": "Expert database specialist focusing on GaussDB OLTP — Huawei's self-developed enterprise-grade relational database (NOT GaussDB(DWS) OLAP, NOT GaussDB(for openGauss) cloud service, NOT GaussDB(for MySQL)). Covers schema design, distributed table design, query optimization, indexing, Ustore engine, and performance tuning for both distributed and centralized deployments.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/gaussdb-expert.md"
+  ],
+  "expertType": "agent",
+  "agentName": "gaussdb-expert",
+  "displayName": {
+    "en": "GaussDB Expert Engineer",
+    "zh": "gaussdb expert"
+  },
+  "profession": {
+    "en": "GaussDB Expert Engineer",
+    "zh": "gaussdb expert"
+  },
+  "displayDescription": {
+    "en": "Expert database specialist focusing on GaussDB OLTP — Huawei's self-developed enterprise-grade relational database (NOT GaussDB(DWS) OLAP, NOT GaussDB(for openGauss) cloud service, NOT GaussDB(for MySQL)). Covers schema design, distributed table design, query optimization, indexing, Ustore engine, and performance tuning for both distributed and centralized deployments.",
+    "zh": "源自开源库 The Agency 的「gaussdb expert」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the GaussDB Expert Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「gaussdb expert」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "gaussdb-expert",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "gaussdb",
+      "zh": "gaussdb"
+    },
+    {
+      "en": "expert",
+      "zh": "expert"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the GaussDB Expert Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「gaussdb expert」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for gaussdb expert adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出gaussdb expert方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "meeting-notes-specialist",
+  "version": "1.0.0",
+  "description": "Extract structured decisions, action items, and open questions from meeting transcripts or rough notes into a clean 4-section summary.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/meeting-notes-specialist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "meeting-notes-specialist",
+  "displayName": {
+    "en": "Meeting Notes Specialist",
+    "zh": "meeting notes 专家"
+  },
+  "profession": {
+    "en": "Meeting Notes Specialist",
+    "zh": "meeting notes 专家"
+  },
+  "displayDescription": {
+    "en": "Extract structured decisions, action items, and open questions from meeting transcripts or rough notes into a clean 4-section summary.",
+    "zh": "源自开源库 The Agency 的「meeting notes 专家」角色设定，专注项目质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the Meeting Notes Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「meeting notes 专家」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "meeting-notes-specialist",
+  "tags": [
+    {
+      "en": "project-management",
+      "zh": "项目质量"
+    },
+    {
+      "en": "meeting",
+      "zh": "meeting"
+    },
+    {
+      "en": "notes",
+      "zh": "notes"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Meeting Notes Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「meeting notes 专家」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current project-management approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的项目质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for meeting notes 专家 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出meeting notes 专家方向的分步落地计划。"
+    }
+  ]
+}

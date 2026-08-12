@@ -1,0 +1,62 @@
+{
+  "name": "french-consulting-market",
+  "version": "1.0.0",
+  "description": "Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/french-consulting-market.md"
+  ],
+  "expertType": "agent",
+  "agentName": "french-consulting-market",
+  "displayName": {
+    "en": "French Consulting Market Navigator",
+    "zh": "french consulting market"
+  },
+  "profession": {
+    "en": "French Consulting Market Navigator",
+    "zh": "french consulting market"
+  },
+  "displayDescription": {
+    "en": "Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities",
+    "zh": "源自开源库 The Agency 的「french consulting market」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the French Consulting Market Navigator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「french consulting market」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "french-consulting-market",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "french",
+      "zh": "french"
+    },
+    {
+      "en": "consulting",
+      "zh": "consulting"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the French Consulting Market Navigator (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「french consulting market」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for french consulting market adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出french consulting market方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "nexus-strategy",
+  "version": "1.0.0",
+  "description": "Nexus strategy advisor for enterprise architecture, technology roadmaps and executive decision support.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/nexus-strategy.md"
+  ],
+  "expertType": "agent",
+  "agentName": "nexus-strategy",
+  "displayName": {
+    "en": "nexus-strategy",
+    "zh": "nexus 战略"
+  },
+  "profession": {
+    "en": "nexus-strategy",
+    "zh": "nexus 战略"
+  },
+  "displayDescription": {
+    "en": "Nexus strategy advisor for enterprise architecture, technology roadmaps and executive decision support.",
+    "zh": "源自开源库 The Agency 的「nexus 战略」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the nexus-strategy (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「nexus 战略」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "nexus-strategy",
+  "tags": [
+    {
+      "en": "strategy",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "nexus",
+      "zh": "nexus"
+    },
+    {
+      "en": "strategy",
+      "zh": "战略"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the nexus-strategy (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「nexus 战略」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current strategy approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for nexus 战略 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出nexus 战略方向的分步落地计划。"
+    }
+  ]
+}

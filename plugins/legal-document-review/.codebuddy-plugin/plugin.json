@@ -1,0 +1,62 @@
+{
+  "name": "legal-document-review",
+  "version": "1.0.0",
+  "description": "Comprehensive legal document review specialist for contracts, litigation documents, and real estate agreements — summarizing documents, flagging risk clauses, comparing contract versions, and checking compliance across any law firm size or practice area",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/legal-document-review.md"
+  ],
+  "expertType": "agent",
+  "agentName": "legal-document-review",
+  "displayName": {
+    "en": "Legal Document Review",
+    "zh": "法务 document review"
+  },
+  "profession": {
+    "en": "Legal Document Review",
+    "zh": "法务 document review"
+  },
+  "displayDescription": {
+    "en": "Comprehensive legal document review specialist for contracts, litigation documents, and real estate agreements — summarizing documents, flagging risk clauses, comparing contract versions, and checking compliance across any law firm size or practice area",
+    "zh": "源自开源库 The Agency 的「法务 document review」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Legal Document Review (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「法务 document review」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "legal-document-review",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "legal",
+      "zh": "法务"
+    },
+    {
+      "en": "document",
+      "zh": "document"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Legal Document Review (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「法务 document review」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 法务 document review adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出法务 document review方向的分步落地计划。"
+    }
+  ]
+}

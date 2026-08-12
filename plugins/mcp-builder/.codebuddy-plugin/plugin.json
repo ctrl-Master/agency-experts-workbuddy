@@ -1,0 +1,62 @@
+{
+  "name": "mcp-builder",
+  "version": "1.0.0",
+  "description": "Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/mcp-builder.md"
+  ],
+  "expertType": "agent",
+  "agentName": "mcp-builder",
+  "displayName": {
+    "en": "MCP Builder",
+    "zh": "mcp builder"
+  },
+  "profession": {
+    "en": "MCP Builder",
+    "zh": "mcp builder"
+  },
+  "displayDescription": {
+    "en": "Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.",
+    "zh": "源自开源库 The Agency 的「mcp builder」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the MCP Builder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「mcp builder」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "mcp-builder",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "mcp",
+      "zh": "mcp"
+    },
+    {
+      "en": "builder",
+      "zh": "builder"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the MCP Builder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「mcp builder」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for mcp builder adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出mcp builder方向的分步落地计划。"
+    }
+  ]
+}

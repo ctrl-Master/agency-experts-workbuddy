@@ -1,0 +1,62 @@
+{
+  "name": "change-management-consultant",
+  "version": "1.0.0",
+  "description": "Expert change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration — managing resistance, building adoption, and ensuring changes stick long after go-live",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/change-management-consultant.md"
+  ],
+  "expertType": "agent",
+  "agentName": "change-management-consultant",
+  "displayName": {
+    "en": "Change Management Consultant",
+    "zh": "change management 顾问"
+  },
+  "profession": {
+    "en": "Change Management Consultant",
+    "zh": "change management 顾问"
+  },
+  "displayDescription": {
+    "en": "Expert change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration — managing resistance, building adoption, and ensuring changes stick long after go-live",
+    "zh": "源自开源库 The Agency 的「change management 顾问」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Change Management Consultant (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「change management 顾问」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "change-management-consultant",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "change",
+      "zh": "change"
+    },
+    {
+      "en": "management",
+      "zh": "management"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Change Management Consultant (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「change management 顾问」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for change management 顾问 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出change management 顾问方向的分步落地计划。"
+    }
+  ]
+}

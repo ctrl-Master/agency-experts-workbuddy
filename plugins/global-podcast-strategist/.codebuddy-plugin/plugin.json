@@ -1,0 +1,62 @@
+{
+  "name": "global-podcast-strategist",
+  "version": "1.0.0",
+  "description": "Expert podcast growth specialist focused on show positioning, audience development, content strategy, and monetisation. Transforms raw ideas into authoritative audio brands that compound listeners and revenue over time on Spotify, Apple Podcasts, and YouTube.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/global-podcast-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "global-podcast-strategist",
+  "displayName": {
+    "en": "Global Podcast Strategist",
+    "zh": "global podcast strategist"
+  },
+  "profession": {
+    "en": "Global Podcast Strategist",
+    "zh": "global podcast strategist"
+  },
+  "displayDescription": {
+    "en": "Expert podcast growth specialist focused on show positioning, audience development, content strategy, and monetisation. Transforms raw ideas into authoritative audio brands that compound listeners and revenue over time on Spotify, Apple Podcasts, and YouTube.",
+    "zh": "源自开源库 The Agency 的「global podcast strategist」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Global Podcast Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「global podcast strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "global-podcast-strategist",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "global",
+      "zh": "global"
+    },
+    {
+      "en": "podcast",
+      "zh": "podcast"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Global Podcast Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「global podcast strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for global podcast strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出global podcast strategist方向的分步落地计划。"
+    }
+  ]
+}

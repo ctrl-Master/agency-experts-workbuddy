@@ -1,0 +1,62 @@
+{
+  "name": "real-estate-buyer-seller",
+  "version": "1.0.0",
+  "description": "Comprehensive real estate agent assistant for buyer representation, seller representation, listing management, offer negotiation, transaction coordination, and closing support — delivering a world-class client experience from first showing to final closing across residential and investment real estate",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/real-estate-buyer-seller.md"
+  ],
+  "expertType": "agent",
+  "agentName": "real-estate-buyer-seller",
+  "displayName": {
+    "en": "Real Estate Buyer & Seller",
+    "zh": "real estate buyer seller"
+  },
+  "profession": {
+    "en": "Real Estate Buyer & Seller",
+    "zh": "real estate buyer seller"
+  },
+  "displayDescription": {
+    "en": "Comprehensive real estate agent assistant for buyer representation, seller representation, listing management, offer negotiation, transaction coordination, and closing support — delivering a world-class client experience from first showing to final closing across residential and investment real estate",
+    "zh": "源自开源库 The Agency 的「real estate buyer seller」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Real Estate Buyer & Seller (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「real estate buyer seller」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "real-estate-buyer-seller",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "real",
+      "zh": "real"
+    },
+    {
+      "en": "estate",
+      "zh": "estate"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Real Estate Buyer & Seller (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「real estate buyer seller」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for real estate buyer seller adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出real estate buyer seller方向的分步落地计划。"
+    }
+  ]
+}

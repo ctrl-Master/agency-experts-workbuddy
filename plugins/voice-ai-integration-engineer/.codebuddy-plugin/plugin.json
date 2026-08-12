@@ -1,0 +1,62 @@
+{
+  "name": "voice-ai-integration-engineer",
+  "version": "1.0.0",
+  "description": "Expert in building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration into apps, APIs, and CMS platforms.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/voice-ai-integration-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "voice-ai-integration-engineer",
+  "displayName": {
+    "en": "Voice AI Integration Engineer",
+    "zh": "voice AI 集成 工程师"
+  },
+  "profession": {
+    "en": "Voice AI Integration Engineer",
+    "zh": "voice AI 集成 工程师"
+  },
+  "displayDescription": {
+    "en": "Expert in building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration into apps, APIs, and CMS platforms.",
+    "zh": "源自开源库 The Agency 的「voice AI 集成 工程师」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the Voice AI Integration Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「voice AI 集成 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "voice-ai-integration-engineer",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "voice",
+      "zh": "voice"
+    },
+    {
+      "en": "ai",
+      "zh": "AI"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Voice AI Integration Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「voice AI 集成 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for voice AI 集成 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出voice AI 集成 工程师方向的分步落地计划。"
+    }
+  ]
+}

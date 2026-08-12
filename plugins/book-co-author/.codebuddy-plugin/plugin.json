@@ -1,0 +1,62 @@
+{
+  "name": "book-co-author",
+  "version": "1.0.0",
+  "description": "Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/book-co-author.md"
+  ],
+  "expertType": "agent",
+  "agentName": "book-co-author",
+  "displayName": {
+    "en": "Book Co-Author",
+    "zh": "book co author"
+  },
+  "profession": {
+    "en": "Book Co-Author",
+    "zh": "book co author"
+  },
+  "displayDescription": {
+    "en": "Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.",
+    "zh": "源自开源库 The Agency 的「book co author」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Book Co-Author (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「book co author」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "book-co-author",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "book",
+      "zh": "book"
+    },
+    {
+      "en": "co",
+      "zh": "co"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Book Co-Author (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「book co author」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for book co author adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出book co author方向的分步落地计划。"
+    }
+  ]
+}

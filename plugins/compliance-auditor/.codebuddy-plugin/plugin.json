@@ -1,0 +1,62 @@
+{
+  "name": "compliance-auditor",
+  "version": "1.0.0",
+  "description": "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/compliance-auditor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "compliance-auditor",
+  "displayName": {
+    "en": "Compliance Auditor",
+    "zh": "compliance auditor"
+  },
+  "profession": {
+    "en": "Compliance Auditor",
+    "zh": "compliance auditor"
+  },
+  "displayDescription": {
+    "en": "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification.",
+    "zh": "源自开源库 The Agency 的「compliance auditor」角色设定，专注安全合规领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "en": "Act as the Compliance Auditor (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「compliance auditor」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "compliance-auditor",
+  "tags": [
+    {
+      "en": "security",
+      "zh": "安全合规"
+    },
+    {
+      "en": "compliance",
+      "zh": "compliance"
+    },
+    {
+      "en": "auditor",
+      "zh": "auditor"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Compliance Auditor (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「compliance auditor」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current security approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的安全合规方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for compliance auditor adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出compliance auditor方向的分步落地计划。"
+    }
+  ]
+}

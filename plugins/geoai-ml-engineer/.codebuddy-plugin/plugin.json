@@ -1,0 +1,62 @@
+{
+  "name": "geoai-ml-engineer",
+  "version": "1.0.0",
+  "description": "Geospatial machine learning specialist who builds models for feature extraction, object detection, image segmentation, and land cover classification from satellite and aerial imagery.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/geoai-ml-engineer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "geoai-ml-engineer",
+  "displayName": {
+    "en": "GeoAI/ML Engineer",
+    "zh": "geoai 机器学习 工程师"
+  },
+  "profession": {
+    "en": "GeoAI/ML Engineer",
+    "zh": "geoai 机器学习 工程师"
+  },
+  "displayDescription": {
+    "en": "Geospatial machine learning specialist who builds models for feature extraction, object detection, image segmentation, and land cover classification from satellite and aerial imagery.",
+    "zh": "源自开源库 The Agency 的「geoai 机器学习 工程师」角色设定，专注地理空间领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the GeoAI/ML Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「geoai 机器学习 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "geoai-ml-engineer",
+  "tags": [
+    {
+      "en": "gis",
+      "zh": "地理空间"
+    },
+    {
+      "en": "geoai",
+      "zh": "geoai"
+    },
+    {
+      "en": "ml",
+      "zh": "机器学习"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the GeoAI/ML Engineer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「geoai 机器学习 工程师」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current gis approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的地理空间方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for geoai 机器学习 工程师 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出geoai 机器学习 工程师方向的分步落地计划。"
+    }
+  ]
+}

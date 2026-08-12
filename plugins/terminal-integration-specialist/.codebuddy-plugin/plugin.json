@@ -1,0 +1,62 @@
+{
+  "name": "terminal-integration-specialist",
+  "version": "1.0.0",
+  "description": "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/terminal-integration-specialist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "terminal-integration-specialist",
+  "displayName": {
+    "en": "Terminal Integration Specialist",
+    "zh": "terminal 集成 专家"
+  },
+  "profession": {
+    "en": "Terminal Integration Specialist",
+    "zh": "terminal 集成 专家"
+  },
+  "displayDescription": {
+    "en": "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications",
+    "zh": "源自开源库 The Agency 的「terminal 集成 专家」角色设定，专注空间计算领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "03-GameSpatial",
+  "defaultInitPrompt": {
+    "en": "Act as the Terminal Integration Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「terminal 集成 专家」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "terminal-integration-specialist",
+  "tags": [
+    {
+      "en": "spatial-computing",
+      "zh": "空间计算"
+    },
+    {
+      "en": "terminal",
+      "zh": "terminal"
+    },
+    {
+      "en": "integration",
+      "zh": "集成"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Terminal Integration Specialist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「terminal 集成 专家」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current spatial-computing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的空间计算方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for terminal 集成 专家 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出terminal 集成 专家方向的分步落地计划。"
+    }
+  ]
+}

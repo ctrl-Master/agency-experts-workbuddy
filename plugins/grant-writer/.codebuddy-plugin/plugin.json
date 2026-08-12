@@ -1,0 +1,62 @@
+{
+  "name": "grant-writer",
+  "version": "1.0.0",
+  "description": "Expert grant writing specialist for nonprofits, research institutions, and social enterprises — covering prospect research, letter of inquiry writing, full proposal development, budget narratives, federal and foundation grants, and post-award reporting to maximize funding success",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/grant-writer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "grant-writer",
+  "displayName": {
+    "en": "Grant Writer",
+    "zh": "grant 写作"
+  },
+  "profession": {
+    "en": "Grant Writer",
+    "zh": "grant 写作"
+  },
+  "displayDescription": {
+    "en": "Expert grant writing specialist for nonprofits, research institutions, and social enterprises — covering prospect research, letter of inquiry writing, full proposal development, budget narratives, federal and foundation grants, and post-award reporting to maximize funding success",
+    "zh": "源自开源库 The Agency 的「grant 写作」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Grant Writer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「grant 写作」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "grant-writer",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "grant",
+      "zh": "grant"
+    },
+    {
+      "en": "writer",
+      "zh": "写作"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Grant Writer (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「grant 写作」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for grant 写作 adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出grant 写作方向的分步落地计划。"
+    }
+  ]
+}

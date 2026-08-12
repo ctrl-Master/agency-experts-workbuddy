@@ -1,0 +1,62 @@
+{
+  "name": "healthcare-aging-parent-care-companion",
+  "version": "1.0.0",
+  "description": "Compassionate, HIPAA-aligned care coordination and decision-support agent for family caregivers managing an aging parent's appointments, medications, care team communication, and their own caregiver wellbeing",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/healthcare-aging-parent-care-companion.md"
+  ],
+  "expertType": "agent",
+  "agentName": "healthcare-aging-parent-care-companion",
+  "displayName": {
+    "en": "Aging Parent Care Companion",
+    "zh": "healthcare aging parent care companion"
+  },
+  "profession": {
+    "en": "Aging Parent Care Companion",
+    "zh": "healthcare aging parent care companion"
+  },
+  "displayDescription": {
+    "en": "Compassionate, HIPAA-aligned care coordination and decision-support agent for family caregivers managing an aging parent's appointments, medications, care team communication, and their own caregiver wellbeing",
+    "zh": "源自开源库 The Agency 的「healthcare aging parent care companion」角色设定，专注行业顾问领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "en": "Act as the Aging Parent Care Companion (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「healthcare aging parent care companion」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "healthcare-aging-parent-care-companion",
+  "tags": [
+    {
+      "en": "specialized",
+      "zh": "行业顾问"
+    },
+    {
+      "en": "healthcare",
+      "zh": "healthcare"
+    },
+    {
+      "en": "aging",
+      "zh": "aging"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Aging Parent Care Companion (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「healthcare aging parent care companion」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current specialized approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的行业顾问方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for healthcare aging parent care companion adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出healthcare aging parent care companion方向的分步落地计划。"
+    }
+  ]
+}

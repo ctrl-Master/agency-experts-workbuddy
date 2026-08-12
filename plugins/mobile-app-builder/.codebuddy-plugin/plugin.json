@@ -1,0 +1,62 @@
+{
+  "name": "mobile-app-builder",
+  "version": "1.0.0",
+  "description": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/mobile-app-builder.md"
+  ],
+  "expertType": "agent",
+  "agentName": "mobile-app-builder",
+  "displayName": {
+    "en": "Mobile App Builder",
+    "zh": "移动 app builder"
+  },
+  "profession": {
+    "en": "Mobile App Builder",
+    "zh": "移动 app builder"
+  },
+  "displayDescription": {
+    "en": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+    "zh": "源自开源库 The Agency 的「移动 app builder」角色设定，专注工程研发领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "Act as the Mobile App Builder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「移动 app builder」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "mobile-app-builder",
+  "tags": [
+    {
+      "en": "engineering",
+      "zh": "工程研发"
+    },
+    {
+      "en": "mobile",
+      "zh": "移动"
+    },
+    {
+      "en": "app",
+      "zh": "app"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Mobile App Builder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「移动 app builder」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current engineering approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的工程研发方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 移动 app builder adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出移动 app builder方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "social-media-strategist",
+  "version": "1.0.0",
+  "description": "Expert social media strategist for LinkedIn, Twitter, and professional platforms. Creates cross-platform campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/social-media-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "social-media-strategist",
+  "displayName": {
+    "en": "Social Media Strategist",
+    "zh": "社交 media strategist"
+  },
+  "profession": {
+    "en": "Social Media Strategist",
+    "zh": "社交 media strategist"
+  },
+  "displayDescription": {
+    "en": "Expert social media strategist for LinkedIn, Twitter, and professional platforms. Creates cross-platform campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies.",
+    "zh": "源自开源库 The Agency 的「社交 media strategist」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the Social Media Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「社交 media strategist」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "social-media-strategist",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "social",
+      "zh": "社交"
+    },
+    {
+      "en": "media",
+      "zh": "media"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Social Media Strategist (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「社交 media strategist」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 社交 media strategist adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出社交 media strategist方向的分步落地计划。"
+    }
+  ]
+}

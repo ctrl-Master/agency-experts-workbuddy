@@ -1,0 +1,62 @@
+{
+  "name": "fpa-analyst",
+  "version": "1.0.0",
+  "description": "Expert Financial Planning & Analysis (FP&A) analyst specializing in budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/fpa-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "fpa-analyst",
+  "displayName": {
+    "en": "FP&A Analyst",
+    "zh": "fpa analyst"
+  },
+  "profession": {
+    "en": "FP&A Analyst",
+    "zh": "fpa analyst"
+  },
+  "displayDescription": {
+    "en": "Expert Financial Planning & Analysis (FP&A) analyst specializing in budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation.",
+    "zh": "源自开源库 The Agency 的「fpa analyst」角色设定，专注金融投资领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "en": "Act as the FP&A Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「fpa analyst」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "fpa-analyst",
+  "tags": [
+    {
+      "en": "finance",
+      "zh": "金融投资"
+    },
+    {
+      "en": "fpa",
+      "zh": "fpa"
+    },
+    {
+      "en": "analyst",
+      "zh": "analyst"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the FP&A Analyst (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「fpa analyst」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current finance approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的金融投资方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for fpa analyst adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出fpa analyst方向的分步落地计划。"
+    }
+  ]
+}

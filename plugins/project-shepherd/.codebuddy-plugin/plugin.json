@@ -1,0 +1,62 @@
+{
+  "name": "project-shepherd",
+  "version": "1.0.0",
+  "description": "Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/project-shepherd.md"
+  ],
+  "expertType": "agent",
+  "agentName": "project-shepherd",
+  "displayName": {
+    "en": "Project Shepherd",
+    "zh": "项目 shepherd"
+  },
+  "profession": {
+    "en": "Project Shepherd",
+    "zh": "项目 shepherd"
+  },
+  "displayDescription": {
+    "en": "Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments.",
+    "zh": "源自开源库 The Agency 的「项目 shepherd」角色设定，专注项目质量领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Act as the Project Shepherd (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「项目 shepherd」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "project-shepherd",
+  "tags": [
+    {
+      "en": "project-management",
+      "zh": "项目质量"
+    },
+    {
+      "en": "project",
+      "zh": "项目"
+    },
+    {
+      "en": "shepherd",
+      "zh": "shepherd"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Project Shepherd (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「项目 shepherd」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current project-management approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的项目质量方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 项目 shepherd adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出项目 shepherd方向的分步落地计划。"
+    }
+  ]
+}

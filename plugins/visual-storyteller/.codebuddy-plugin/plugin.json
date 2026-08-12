@@ -1,0 +1,62 @@
+{
+  "name": "visual-storyteller",
+  "version": "1.0.0",
+  "description": "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/visual-storyteller.md"
+  ],
+  "expertType": "agent",
+  "agentName": "visual-storyteller",
+  "displayName": {
+    "en": "Visual Storyteller",
+    "zh": "visual storyteller"
+  },
+  "profession": {
+    "en": "Visual Storyteller",
+    "zh": "visual storyteller"
+  },
+  "displayDescription": {
+    "en": "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement.",
+    "zh": "源自开源库 The Agency 的「visual storyteller」角色设定，专注产品设计领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the Visual Storyteller (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「visual storyteller」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "visual-storyteller",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "产品设计"
+    },
+    {
+      "en": "visual",
+      "zh": "visual"
+    },
+    {
+      "en": "storyteller",
+      "zh": "storyteller"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Visual Storyteller (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「visual storyteller」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current design approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的产品设计方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for visual storyteller adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出visual storyteller方向的分步落地计划。"
+    }
+  ]
+}

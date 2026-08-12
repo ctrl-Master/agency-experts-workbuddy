@@ -1,0 +1,62 @@
+{
+  "name": "incident-responder",
+  "version": "1.0.0",
+  "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/incident-responder.md"
+  ],
+  "expertType": "agent",
+  "agentName": "incident-responder",
+  "displayName": {
+    "en": "Incident Responder",
+    "zh": "incident responder"
+  },
+  "profession": {
+    "en": "Incident Responder",
+    "zh": "incident responder"
+  },
+  "displayDescription": {
+    "en": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
+    "zh": "源自开源库 The Agency 的「incident responder」角色设定，专注安全合规领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "en": "Act as the Incident Responder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「incident responder」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "incident-responder",
+  "tags": [
+    {
+      "en": "security",
+      "zh": "安全合规"
+    },
+    {
+      "en": "incident",
+      "zh": "incident"
+    },
+    {
+      "en": "responder",
+      "zh": "responder"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Incident Responder (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「incident responder」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current security approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的安全合规方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for incident responder adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出incident responder方向的分步落地计划。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "wechat-official-account",
+  "version": "1.0.0",
+  "description": "Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery.",
+  "author": {
+    "name": "msitarzewski (agency-agents)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/wechat-official-account.md"
+  ],
+  "expertType": "agent",
+  "agentName": "wechat-official-account",
+  "displayName": {
+    "en": "WeChat Official Account Manager",
+    "zh": "微信 official account"
+  },
+  "profession": {
+    "en": "WeChat Official Account Manager",
+    "zh": "微信 official account"
+  },
+  "displayDescription": {
+    "en": "Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery.",
+    "zh": "源自开源库 The Agency 的「微信 official account」角色设定，专注营销增长领域，提供该方向的专家建议与落地方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "en": "Act as the WeChat Official Account Manager (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+    "zh": "以 The Agency 的「微信 official account」身份协助我完成任务，给出具体可执行的步骤。"
+  },
+  "plugin": "wechat-official-account",
+  "tags": [
+    {
+      "en": "marketing",
+      "zh": "营销增长"
+    },
+    {
+      "en": "wechat",
+      "zh": "微信"
+    },
+    {
+      "en": "official",
+      "zh": "official"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the WeChat Official Account Manager (from The Agency). Help me tackle: <your task>. Give concrete, actionable steps.",
+      "zh": "以 The Agency 的「微信 official account」身份协助我完成任务，给出具体可执行的步骤。"
+    },
+    {
+      "en": "Review my current marketing approach and list concrete improvements with trade-offs.",
+      "zh": "审查我当前的营销增长方案，列出具体改进点与取舍。"
+    },
+    {
+      "en": "Produce a step-by-step plan for 微信 official account adapted to my stack and constraints.",
+      "zh": "针对我的技术栈与约束，给出微信 official account方向的分步落地计划。"
+    }
+  ]
+}
