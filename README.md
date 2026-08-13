@@ -1,6 +1,6 @@
 # agency-experts-workbuddy
 
-WorkBuddy 专家包集合，由 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)（MIT）转换而来。共 **249 个专家**，覆盖工程研发、数据智能、营销增长、产品设计、安全合规、行业顾问等方向，每个专家含独立 emoji 头像。
+WorkBuddy 专家包集合，由 [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)（MIT）转换而来。共 **250 个专家**，覆盖工程研发、数据智能、营销增长、产品设计、安全合规、行业顾问等方向，每个专家含独立 emoji 头像。
 
 ## 安装
 

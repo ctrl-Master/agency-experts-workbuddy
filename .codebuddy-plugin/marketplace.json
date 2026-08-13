@@ -1246,6 +1246,11 @@
       "name": "nexus-strategy",
       "source": "./plugins/nexus-strategy",
       "description": "Nexus strategy advisor for enterprise architecture, technology roadmaps and executive decision support."
+    },
+    {
+      "name": "hallmark",
+      "source": "./plugins/hallmark",
+      "description": "Anti-AI-slop design skill (Nutlope/hallmark, Together AI, MIT). Enforces structural variety and 58 slop-test gates so AI-generated UIs look made, not generated. Verbs: build, audit, redesign, study."
     }
   ]
 }

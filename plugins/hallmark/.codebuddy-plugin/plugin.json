@@ -1,0 +1,66 @@
+{
+  "name": "hallmark",
+  "version": "1.1.0",
+  "description": "Anti-AI-slop design skill for AI coding assistants. Enforces structural variety and a tight rule set (58 slop-test gates, 21 macrostructures, 20 themes) so generated UIs look made, not generated. Verbs: build, audit, redesign, study.",
+  "author": {
+    "name": "Nutlope (hallmark, Together AI)",
+    "email": "noreply@github.com"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/hallmark.md"
+  ],
+  "expertType": "agent",
+  "agentName": "hallmark",
+  "displayName": {
+    "en": "Hallmark — Anti-AI-Slop Design",
+    "zh": "Hallmark 反 AI 味设计"
+  },
+  "profession": {
+    "en": "Frontend/UI Anti-AI-Slop Design Expert",
+    "zh": "前端/UI 反 AI 味设计专家"
+  },
+  "displayDescription": {
+    "en": "Anti-AI-slop design skill (Nutlope/hallmark, Together AI, MIT). Uses 58 slop-test gates, 21 macrostructures and 20 themes to force structural variety and locked design tokens, so AI-generated pages/landing pages/portfolios don't look 'obviously AI'. Verbs: build (default), audit (score existing code), redesign (rebuild visual structure), study (extract design DNA from a URL/screenshot). Detailed rules live in references/ and are loaded on demand.",
+    "zh": "源自开源项目 Nutlope/hallmark（Together AI，MIT）的「反 AI 味」设计规范技能。用 58 道 slop 检测闸门、21 种宏观结构、20 套主题，强制结构多样性与设计 token 约束，让 AI 生成的页面/落地页/作品集不再「一眼假」。支持 build（新建）/ audit（体检打分）/ redesign（重构视觉结构）/ study（提取他人设计 DNA）。详细规则在 references/ 下按需加载。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "en": "Act as the Hallmark anti-AI-slop design expert. Help me design/build a page that does NOT look AI-generated. Brief: <your brief>.",
+    "zh": "以 Hallmark 反 AI 味设计专家的身份，帮我设计/构建一个不像 AI 生成的页面。需求：<你的需求>。"
+  },
+  "plugin": "hallmark",
+  "tags": [
+    {
+      "en": "design",
+      "zh": "设计"
+    },
+    {
+      "en": "frontend",
+      "zh": "前端"
+    },
+    {
+      "en": "anti-ai-slop",
+      "zh": "反AI味"
+    },
+    {
+      "en": "ui",
+      "zh": "UI"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Act as the Hallmark anti-AI-slop design expert. Build me a landing page for <topic> that doesn't look AI-generated.",
+      "zh": "以 Hallmark 反 AI 味设计专家身份，帮我做一个不像 AI 生成的 <主题> 落地页。"
+    },
+    {
+      "en": "Audit my existing page for AI-slop patterns and give a ranked punch list.",
+      "zh": "对我现有的页面做 AI 味体检，给出按严重度排序的问题清单。"
+    },
+    {
+      "en": "Redesign the visual structure of <target> while keeping its copy, brand and routes.",
+      "zh": "在保留文案、品牌与路由的前提下，重构 <目标> 的视觉结构。"
+    }
+  ]
+}
