@@ -2,6 +2,10 @@
 
 源自开源项目 [Nutlope/hallmark](https://github.com/Nutlope/hallmark)（Together AI，MIT）的「反 AI 味」设计规范技能，已打包为 WorkBuddy 专家。
 
+## 作用 / 用途
+
+专治 AI 生成页面「一眼假」的通病——紫色渐变 + 三列卡片 + 无衬线大字标题的套路感。用一套可验证的设计约束（结构多样性优先于视觉换肤），把落地页、作品集、企业原型做成有质感、不像模板填充的产物。适合 ZHX NEXUS Studio 作品集、HTML demo、企业原型等需要「人味」的场景。
+
 ## 类型
 
 Agent 型（单个 AI 专家 / 规则型设计技能）
@@ -15,7 +19,7 @@ Agent 型（单个 AI 专家 / 规则型设计技能）
 
 ## 详细规则
 
-设计规则、主题、宏观结构、slop 测试等全部在 `references/` 目录下，专家按需加载。核心约束包括：
+设计规则、主题、宏观结构、slop 测试等全部在 `references/` 目录下（共 106 个文档），专家按需加载。核心约束包括：
 
 - **Locked tokens**：颜色、字体必须引用命名 CSS 变量，禁止渲染中途 inline OKLCH。
 - **Mobile floor**：320 / 375 / 414 / 768 px 验证，无横向滚动、无两行按钮标签。
